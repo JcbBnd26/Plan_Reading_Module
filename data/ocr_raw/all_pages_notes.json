@@ -1,0 +1,801 @@
+{
+  "pdf_path": "test.pdf",
+  "filter": {
+    "page": null,
+    "notes_only": true,
+    "sheet_type": null,
+    "min_confidence": null
+  },
+  "summary": {
+    "total_exported_chunks": 28,
+    "per_page_counts": {
+      "1": 28
+    }
+  },
+  "chunks": [
+    {
+      "id": "d0af3732-74b1-4b65-a7d7-d0367f0773a0",
+      "content": "EQUIPMENT SHED - SHOP BAY\nCIVIL",
+      "type": "note_group",
+      "page": 1,
+      "source_file": null,
+      "bbox": {
+        "x0": 1727.6400146484375,
+        "y0": 103.19046020507812,
+        "x1": 2290.64453125,
+        "y1": 119.28282165527344
+      },
+      "visual_region_class": "note",
+      "visual_region_id": "note_1",
+      "visual_note_id": "note_1",
+      "visual_column_id": "column_1",
+      "visual_column_index": 1,
+      "visual_confidence": 0.8477958236658932,
+      "sheet_type": null,
+      "metadata": {
+        "visual_region_class": "note",
+        "visual_region_id": "note_1",
+        "visual_note_id": "note_1",
+        "visual_confidence": 0.8477958236658932,
+        "visual_column_id": "column_1",
+        "visual_column_index": 1
+      }
+    },
+    {
+      "id": "33937320-9334-4a3d-a452-5b9fa7b16617",
+      "content": "C0.0 - TITLE SHEET\n1 - SURVEY SHEET",
+      "type": "note_group",
+      "page": 1,
+      "source_file": null,
+      "bbox": {
+        "x0": 1725.9599609375,
+        "y0": 127.67286682128906,
+        "x1": 1839.3580322265625,
+        "y1": 157.8621063232422
+      },
+      "visual_region_class": "note",
+      "visual_region_id": "note_12",
+      "visual_note_id": "note_12",
+      "visual_column_id": "column_3",
+      "visual_column_index": 3,
+      "visual_confidence": 0.8068027210884353,
+      "sheet_type": null,
+      "metadata": {
+        "visual_region_class": "note",
+        "visual_region_id": "note_12",
+        "visual_note_id": "note_12",
+        "visual_confidence": 0.8068027210884353,
+        "visual_column_id": "column_3",
+        "visual_column_index": 3
+      }
+    },
+    {
+      "id": "7ecd8d42-b535-4911-8253-a14ba2890723",
+      "content": "C0.1 - NOTES & LEGEND\nC2.0 - OVERALL DEMOLITION PLAN\nC3.0 - OVERALL SITE PLAN",
+      "type": "note_group",
+      "page": 1,
+      "source_file": null,
+      "bbox": {
+        "x0": 1726.679931640625,
+        "y0": 164.03285217285156,
+        "x1": 1931.9168701171875,
+        "y1": 212.4620819091797
+      },
+      "visual_region_class": "note",
+      "visual_region_id": "note_18",
+      "visual_note_id": "note_18",
+      "visual_column_id": "column_3",
+      "visual_column_index": 3,
+      "visual_confidence": 0.8068675089083251,
+      "sheet_type": null,
+      "metadata": {
+        "visual_region_class": "note",
+        "visual_region_id": "note_18",
+        "visual_note_id": "note_18",
+        "visual_confidence": 0.8068675089083251,
+        "visual_column_id": "column_3",
+        "visual_column_index": 3
+      }
+    },
+    {
+      "id": "f89e564d-bc59-4472-9b3d-2370c51d0cf0",
+      "content": "C3.1 - SITE PLAN\nC3.2 - SITE PLAN",
+      "type": "note_group",
+      "page": 1,
+      "source_file": null,
+      "bbox": {
+        "x0": 1726.679931640625,
+        "y0": 218.63282775878906,
+        "x1": 1824.6094970703125,
+        "y1": 248.8220672607422
+      },
+      "visual_region_class": "note",
+      "visual_region_id": "note_24",
+      "visual_note_id": "note_24",
+      "visual_column_id": "column_3",
+      "visual_column_index": 3,
+      "visual_confidence": 0.8068027210884353,
+      "sheet_type": null,
+      "metadata": {
+        "visual_region_class": "note",
+        "visual_region_id": "note_24",
+        "visual_note_id": "note_24",
+        "visual_confidence": 0.8068027210884353,
+        "visual_column_id": "column_3",
+        "visual_column_index": 3
+      }
+    },
+    {
+      "id": "559bd2c5-7d35-45ab-ab0d-23cda894f9ad",
+      "content": "C3.3 - SITE PLAN\nC4.0 - OVERALL GRADING PLAN",
+      "type": "note_group",
+      "page": 1,
+      "source_file": null,
+      "bbox": {
+        "x0": 1726.679931640625,
+        "y0": 254.99281311035156,
+        "x1": 1913.13720703125,
+        "y1": 285.1820373535156
+      },
+      "visual_region_class": "note",
+      "visual_region_id": "note_30",
+      "visual_note_id": "note_30",
+      "visual_column_id": "column_3",
+      "visual_column_index": 3,
+      "visual_confidence": 0.8067379332685455,
+      "sheet_type": null,
+      "metadata": {
+        "visual_region_class": "note",
+        "visual_region_id": "note_30",
+        "visual_note_id": "note_30",
+        "visual_confidence": 0.8067379332685455,
+        "visual_column_id": "column_3",
+        "visual_column_index": 3
+      }
+    },
+    {
+      "id": "e72fc2cf-3cbb-4eb6-80f2-7df8e14bc380",
+      "content": "C4.2 - GRADING PLAN\nC4.3 - GRADING PLAN",
+      "type": "note_group",
+      "page": 1,
+      "source_file": null,
+      "bbox": {
+        "x0": 1726.679931640625,
+        "y0": 309.4729309082031,
+        "x1": 1854.106689453125,
+        "y1": 339.7821350097656
+      },
+      "visual_region_class": "note",
+      "visual_region_id": "note_36",
+      "visual_note_id": "note_36",
+      "visual_column_id": "column_3",
+      "visual_column_index": 3,
+      "visual_confidence": 0.8068027210884353,
+      "sheet_type": null,
+      "metadata": {
+        "visual_region_class": "note",
+        "visual_region_id": "note_36",
+        "visual_note_id": "note_36",
+        "visual_confidence": 0.8068027210884353,
+        "visual_column_id": "column_3",
+        "visual_column_index": 3
+      }
+    },
+    {
+      "id": "5c6d66b4-5293-403f-8ebf-143a9abcd8c7",
+      "content": "C4.4 - GRADING PLAN\nC4.5 - STORM GRADING PLAN",
+      "type": "note_group",
+      "page": 1,
+      "source_file": null,
+      "bbox": {
+        "x0": 1726.679931640625,
+        "y0": 345.8329162597656,
+        "x1": 1901.043701171875,
+        "y1": 376.1421203613281
+      },
+      "visual_region_class": "note",
+      "visual_region_id": "note_42",
+      "visual_note_id": "note_42",
+      "visual_column_id": "column_3",
+      "visual_column_index": 3,
+      "visual_confidence": 0.8067379332685455,
+      "sheet_type": null,
+      "metadata": {
+        "visual_region_class": "note",
+        "visual_region_id": "note_42",
+        "visual_note_id": "note_42",
+        "visual_confidence": 0.8067379332685455,
+        "visual_column_id": "column_3",
+        "visual_column_index": 3
+      }
+    },
+    {
+      "id": "91b749c4-cfec-4da2-a6cb-f9b111b74505",
+      "content": "C4.6 - STORM GRADING PLAN\nC4.7 - ENTRANCE DRIVE GRADING\nC5.0 - OVERALL UTILITY PLAN",
+      "type": "note_group",
+      "page": 1,
+      "source_file": null,
+      "bbox": {
+        "x0": 1726.679931640625,
+        "y0": 382.3128967285156,
+        "x1": 1929.2010498046875,
+        "y1": 430.7420959472656
+      },
+      "visual_region_class": "note",
+      "visual_region_id": "note_48",
+      "visual_note_id": "note_48",
+      "visual_column_id": "column_3",
+      "visual_column_index": 3,
+      "visual_confidence": 0.8067379332685455,
+      "sheet_type": null,
+      "metadata": {
+        "visual_region_class": "note",
+        "visual_region_id": "note_48",
+        "visual_note_id": "note_48",
+        "visual_confidence": 0.8067379332685455,
+        "visual_column_id": "column_3",
+        "visual_column_index": 3
+      }
+    },
+    {
+      "id": "05c0aaec-bac3-4565-bdbe-5206a01ca6f9",
+      "content": "C5.1 - UTILITY PLAN\nC5.2 - UTILITY PLAN",
+      "type": "note_group",
+      "page": 1,
+      "source_file": null,
+      "bbox": {
+        "x0": 1726.679931640625,
+        "y0": 436.7928771972656,
+        "x1": 1842.7132568359375,
+        "y1": 467.1020812988281
+      },
+      "visual_region_class": "note",
+      "visual_region_id": "note_54",
+      "visual_note_id": "note_54",
+      "visual_column_id": "column_3",
+      "visual_column_index": 3,
+      "visual_confidence": 0.8068027210884353,
+      "sheet_type": null,
+      "metadata": {
+        "visual_region_class": "note",
+        "visual_region_id": "note_54",
+        "visual_note_id": "note_54",
+        "visual_confidence": 0.8068027210884353,
+        "visual_column_id": "column_3",
+        "visual_column_index": 3
+      }
+    },
+    {
+      "id": "e4d79f34-94a3-4960-8cd2-170f64622bed",
+      "content": "C5.3 - UTILITY PLAN\nC5.4 - UTILITY PLAN",
+      "type": "note_group",
+      "page": 1,
+      "source_file": null,
+      "bbox": {
+        "x0": 1726.679931640625,
+        "y0": 473.1528625488281,
+        "x1": 1842.7132568359375,
+        "y1": 503.4620666503906
+      },
+      "visual_region_class": "note",
+      "visual_region_id": "note_60",
+      "visual_note_id": "note_60",
+      "visual_column_id": "column_3",
+      "visual_column_index": 3,
+      "visual_confidence": 0.8068027210884353,
+      "sheet_type": null,
+      "metadata": {
+        "visual_region_class": "note",
+        "visual_region_id": "note_60",
+        "visual_note_id": "note_60",
+        "visual_confidence": 0.8068027210884353,
+        "visual_column_id": "column_3",
+        "visual_column_index": 3
+      }
+    },
+    {
+      "id": "7c1bea9e-ab08-417a-9488-3267aa4043b5",
+      "content": "C7.0 - SEPTIC DETAILS\nC8.0 - EVAPORATION POND DETAILS",
+      "type": "note_group",
+      "page": 1,
+      "source_file": null,
+      "bbox": {
+        "x0": 1726.679931640625,
+        "y0": 527.7528076171875,
+        "x1": 1941.970458984375,
+        "y1": 557.9420776367188
+      },
+      "visual_region_class": "note",
+      "visual_region_id": "note_66",
+      "visual_note_id": "note_66",
+      "visual_column_id": "column_3",
+      "visual_column_index": 3,
+      "visual_confidence": 0.8068027210884353,
+      "sheet_type": null,
+      "metadata": {
+        "visual_region_class": "note",
+        "visual_region_id": "note_66",
+        "visual_note_id": "note_66",
+        "visual_confidence": 0.8068027210884353,
+        "visual_column_id": "column_3",
+        "visual_column_index": 3
+      }
+    },
+    {
+      "id": "4b258d5c-0138-4fbe-9630-1ad79f86a1fe",
+      "content": "C9.0 - OVERALL EROSION PLAN\nC10.0 - DETAILS",
+      "type": "note_group",
+      "page": 1,
+      "source_file": null,
+      "bbox": {
+        "x0": 1726.679931640625,
+        "y0": 564.1128540039062,
+        "x1": 1912.4735107421875,
+        "y1": 594.422119140625
+      },
+      "visual_region_class": "note",
+      "visual_region_id": "note_72",
+      "visual_note_id": "note_72",
+      "visual_column_id": "column_3",
+      "visual_column_index": 3,
+      "visual_confidence": 0.8067379332685455,
+      "sheet_type": null,
+      "metadata": {
+        "visual_region_class": "note",
+        "visual_region_id": "note_72",
+        "visual_note_id": "note_72",
+        "visual_confidence": 0.8067379332685455,
+        "visual_column_id": "column_3",
+        "visual_column_index": 3
+      }
+    },
+    {
+      "id": "3f5e9b69-f17b-4e81-9632-acbf43fc007a",
+      "content": "C10.2 - DETAILS\nC10.3 - BRINE TANK PAD DETAILS",
+      "type": "note_group",
+      "page": 1,
+      "source_file": null,
+      "bbox": {
+        "x0": 1726.679931640625,
+        "y0": 618.7128295898438,
+        "x1": 1923.8665771484375,
+        "y1": 648.902099609375
+      },
+      "visual_region_class": "note",
+      "visual_region_id": "note_78",
+      "visual_note_id": "note_78",
+      "visual_column_id": "column_3",
+      "visual_column_index": 3,
+      "visual_confidence": 0.8068027210884353,
+      "sheet_type": null,
+      "metadata": {
+        "visual_region_class": "note",
+        "visual_region_id": "note_78",
+        "visual_note_id": "note_78",
+        "visual_confidence": 0.8068027210884353,
+        "visual_column_id": "column_3",
+        "visual_column_index": 3
+      }
+    },
+    {
+      "id": "1ac38503-233f-472e-8463-7326e701f9ea",
+      "content": "C10.4 - FENCE DETAILS\nC10.5 - UTILITY DETAILS",
+      "type": "note_group",
+      "page": 1,
+      "source_file": null,
+      "bbox": {
+        "x0": 1726.679931640625,
+        "y0": 655.0728149414062,
+        "x1": 1868.2032470703125,
+        "y1": 685.2620849609375
+      },
+      "visual_region_class": "note",
+      "visual_region_id": "note_84",
+      "visual_note_id": "note_84",
+      "visual_column_id": "column_3",
+      "visual_column_index": 3,
+      "visual_confidence": 0.8068027210884353,
+      "sheet_type": null,
+      "metadata": {
+        "visual_region_class": "note",
+        "visual_region_id": "note_84",
+        "visual_note_id": "note_84",
+        "visual_confidence": 0.8068027210884353,
+        "visual_column_id": "column_3",
+        "visual_column_index": 3
+      }
+    },
+    {
+      "id": "8fdcd9b2-a172-4abb-9ffe-0ef60cad745e",
+      "content": "EA1.0 - FLOOR PLAN\nEA2.0 - ELEVATIONS & SECTIONS",
+      "type": "note_group",
+      "page": 1,
+      "source_file": null,
+      "bbox": {
+        "x0": 2048.760009765625,
+        "y0": 127.67286682128906,
+        "x1": 2244.618896484375,
+        "y1": 157.8621063232422
+      },
+      "visual_region_class": "note",
+      "visual_region_id": "note_7",
+      "visual_note_id": "note_7",
+      "visual_column_id": "column_1",
+      "visual_column_index": 1,
+      "visual_confidence": 0.8501160092807424,
+      "sheet_type": null,
+      "metadata": {
+        "visual_region_class": "note",
+        "visual_region_id": "note_7",
+        "visual_note_id": "note_7",
+        "visual_confidence": 0.8501160092807424,
+        "visual_column_id": "column_1",
+        "visual_column_index": 1
+      }
+    },
+    {
+      "id": "4253fdce-7da6-4c25-b844-77728eaddc29",
+      "content": "EA3.0 - DETAILS\nES1.0 - SHOP SHED FOUNDATION PLAN",
+      "type": "note_group",
+      "page": 1,
+      "source_file": null,
+      "bbox": {
+        "x0": 2048.760009765625,
+        "y0": 164.03285217285156,
+        "x1": 2281.478759765625,
+        "y1": 194.3420867919922
+      },
+      "visual_region_class": "note",
+      "visual_region_id": "note_13",
+      "visual_note_id": "note_13",
+      "visual_column_id": "column_1",
+      "visual_column_index": 1,
+      "visual_confidence": 0.8487238979118329,
+      "sheet_type": null,
+      "metadata": {
+        "visual_region_class": "note",
+        "visual_region_id": "note_13",
+        "visual_note_id": "note_13",
+        "visual_confidence": 0.8487238979118329,
+        "visual_column_id": "column_1",
+        "visual_column_index": 1
+      }
+    },
+    {
+      "id": "8eaba8e9-0cce-4e2e-b387-d62028df9d4a",
+      "content": "ES3.0 - SHOP SHED HOIST DETAIL\nEM1.0 - SHOP SHED MECHANICAL PLAN",
+      "type": "note_group",
+      "page": 1,
+      "source_file": null,
+      "bbox": {
+        "x0": 2048.760009765625,
+        "y0": 218.63282775878906,
+        "x1": 2282.818359375,
+        "y1": 248.8220672607422
+      },
+      "visual_region_class": "note",
+      "visual_region_id": "note_19",
+      "visual_note_id": "note_19",
+      "visual_column_id": "column_6",
+      "visual_column_index": 6,
+      "visual_confidence": 0.8049674463467567,
+      "sheet_type": null,
+      "metadata": {
+        "visual_region_class": "note",
+        "visual_region_id": "note_19",
+        "visual_note_id": "note_19",
+        "visual_confidence": 0.8049674463467567,
+        "visual_column_id": "column_6",
+        "visual_column_index": 6
+      }
+    },
+    {
+      "id": "3296c649-ebca-434f-950c-8cf35fd828f2",
+      "content": "EE1.0 - SHOP SHED LIGHTING PLAN\nEE2.0 - SHOP SHED POWER & SYSTEMS PLAN",
+      "type": "note_group",
+      "page": 1,
+      "source_file": null,
+      "bbox": {
+        "x0": 2048.760009765625,
+        "y0": 254.99281311035156,
+        "x1": 2319.725341796875,
+        "y1": 285.3020324707031
+      },
+      "visual_region_class": "note",
+      "visual_region_id": "note_25",
+      "visual_note_id": "note_25",
+      "visual_column_id": "column_6",
+      "visual_column_index": 6,
+      "visual_confidence": 0.8051121292500603,
+      "sheet_type": null,
+      "metadata": {
+        "visual_region_class": "note",
+        "visual_region_id": "note_25",
+        "visual_note_id": "note_25",
+        "visual_confidence": 0.8051121292500603,
+        "visual_column_id": "column_6",
+        "visual_column_index": 6
+      }
+    },
+    {
+      "id": "5fa07526-91f2-40db-ab68-f4944fd78628",
+      "content": "HOPPER RACK\nHA2.0 - HOPPER RACK",
+      "type": "note_group",
+      "page": 1,
+      "source_file": null,
+      "bbox": {
+        "x0": 2047.5599365234375,
+        "y0": 565.4304809570312,
+        "x1": 2180.8818359375,
+        "y1": 601.8621215820312
+      },
+      "visual_region_class": "note",
+      "visual_region_id": "note_67",
+      "visual_note_id": "note_67",
+      "visual_column_id": "column_6",
+      "visual_column_index": 6,
+      "visual_confidence": 0.8050639016156257,
+      "sheet_type": null,
+      "metadata": {
+        "visual_region_class": "note",
+        "visual_region_id": "note_67",
+        "visual_note_id": "note_67",
+        "visual_confidence": 0.8050639016156257,
+        "visual_column_id": "column_6",
+        "visual_column_index": 6
+      }
+    },
+    {
+      "id": "0355338c-cdaf-4302-bdb6-4344ebaa547b",
+      "content": "HA2.1 - DETAILS\nHS1.0 - HOPPER RACK FOUNDATION PLAN",
+      "type": "note_group",
+      "page": 1,
+      "source_file": null,
+      "bbox": {
+        "x0": 2048.760009765625,
+        "y0": 608.0328369140625,
+        "x1": 2298.90673828125,
+        "y1": 638.2221069335938
+      },
+      "visual_region_class": "note",
+      "visual_region_id": "note_73",
+      "visual_note_id": "note_73",
+      "visual_column_id": "column_6",
+      "visual_column_index": 6,
+      "visual_confidence": 0.8050639016156257,
+      "sheet_type": null,
+      "metadata": {
+        "visual_region_class": "note",
+        "visual_region_id": "note_73",
+        "visual_note_id": "note_73",
+        "visual_confidence": 0.8050639016156257,
+        "visual_column_id": "column_6",
+        "visual_column_index": 6
+      }
+    },
+    {
+      "id": "a81ab819-d0dc-497b-b34d-de44f1208465",
+      "content": "HS2.0 - HOPPER RACK FRAMING PLAN & ELEVATIONS\nHS3.0 - HOPPER RACK DESIGN CRITERIA &\nFOUNDATION DETAILS",
+      "type": "note_group",
+      "page": 1,
+      "source_file": null,
+      "bbox": {
+        "x0": 2048.760009765625,
+        "y0": 644.392822265625,
+        "x1": 2365.323486328125,
+        "y1": 692.8220825195312
+      },
+      "visual_region_class": "note",
+      "visual_region_id": "note_79",
+      "visual_note_id": "note_79",
+      "visual_column_id": "column_6",
+      "visual_column_index": 6,
+      "visual_confidence": 0.8050639016156257,
+      "sheet_type": null,
+      "metadata": {
+        "visual_region_class": "note",
+        "visual_region_id": "note_79",
+        "visual_note_id": "note_79",
+        "visual_confidence": 0.8050639016156257,
+        "visual_column_id": "column_6",
+        "visual_column_index": 6
+      }
+    },
+    {
+      "id": "54936fd2-b6e2-4714-a094-671ce66fcf01",
+      "content": "HS4.0 - HOPPER RACK CATWALK DETAILS",
+      "type": "note_group",
+      "page": 1,
+      "source_file": null,
+      "bbox": {
+        "x0": 2048.760009765625,
+        "y0": 698.9928588867188,
+        "x1": 2296.2392578125,
+        "y1": 711.0621337890625
+      },
+      "visual_region_class": "note",
+      "visual_region_id": "note_85",
+      "visual_note_id": "note_85",
+      "visual_column_id": "column_6",
+      "visual_column_index": 6,
+      "visual_confidence": 0.8050639016156257,
+      "sheet_type": null,
+      "metadata": {
+        "visual_region_class": "note",
+        "visual_region_id": "note_85",
+        "visual_note_id": "note_85",
+        "visual_confidence": 0.8050639016156257,
+        "visual_column_id": "column_6",
+        "visual_column_index": 6
+      }
+    },
+    {
+      "id": "66ce9cd1-cef7-47de-be96-177bb353ed9e",
+      "content": "EQUIPMENT SHED - WASH BAY",
+      "type": "note_group",
+      "page": 1,
+      "source_file": null,
+      "bbox": {
+        "x0": 2047.43994140625,
+        "y0": 326.7503967285156,
+        "x1": 2294.200927734375,
+        "y1": 342.8427429199219
+      },
+      "visual_region_class": "note",
+      "visual_region_id": "note_31",
+      "visual_note_id": "note_31",
+      "visual_column_id": "column_6",
+      "visual_column_index": 6,
+      "visual_confidence": 0.8051121292500603,
+      "sheet_type": null,
+      "metadata": {
+        "visual_region_class": "note",
+        "visual_region_id": "note_31",
+        "visual_note_id": "note_31",
+        "visual_confidence": 0.8051121292500603,
+        "visual_column_id": "column_6",
+        "visual_column_index": 6
+      }
+    },
+    {
+      "id": "7d7fdd20-c4af-4d27-98bc-c9f1e4cddb8b",
+      "content": "WA1.0 - FLOOR PLAN\nWA2.0 - ELEVATIONS & SECTIONS",
+      "type": "note_group",
+      "page": 1,
+      "source_file": null,
+      "bbox": {
+        "x0": 2049.599853515625,
+        "y0": 351.1128234863281,
+        "x1": 2248.80224609375,
+        "y1": 381.4220275878906
+      },
+      "visual_region_class": "note",
+      "visual_region_id": "note_37",
+      "visual_note_id": "note_37",
+      "visual_column_id": "column_6",
+      "visual_column_index": 6,
+      "visual_confidence": 0.8050639016156257,
+      "sheet_type": null,
+      "metadata": {
+        "visual_region_class": "note",
+        "visual_region_id": "note_37",
+        "visual_note_id": "note_37",
+        "visual_confidence": 0.8050639016156257,
+        "visual_column_id": "column_6",
+        "visual_column_index": 6
+      }
+    },
+    {
+      "id": "36e51574-f82a-4245-8140-8b505ca86f17",
+      "content": "WA3.0 - DETAILS\nWS1.0 - WASH SHED FOUNDATION PLAN",
+      "type": "note_group",
+      "page": 1,
+      "source_file": null,
+      "bbox": {
+        "x0": 2049.599853515625,
+        "y0": 387.4728088378906,
+        "x1": 2287.665771484375,
+        "y1": 417.7821350097656
+      },
+      "visual_region_class": "note",
+      "visual_region_id": "note_43",
+      "visual_note_id": "note_43",
+      "visual_column_id": "column_6",
+      "visual_column_index": 6,
+      "visual_confidence": 0.8050639016156257,
+      "sheet_type": null,
+      "metadata": {
+        "visual_region_class": "note",
+        "visual_region_id": "note_43",
+        "visual_note_id": "note_43",
+        "visual_confidence": 0.8050639016156257,
+        "visual_column_id": "column_6",
+        "visual_column_index": 6
+      }
+    },
+    {
+      "id": "bf844a36-36f5-4d77-b862-2340fb9294d7",
+      "content": "WS3.0 - WASH SHED CATWALK DETAILS\nWS3.0 - WASH SHED CATWALK DETAILS",
+      "type": "note_group",
+      "page": 1,
+      "source_file": null,
+      "bbox": {
+        "x0": 2049.599853515625,
+        "y0": 442.0729064941406,
+        "x1": 2284.998291015625,
+        "y1": 472.2621154785156
+      },
+      "visual_region_class": "note",
+      "visual_region_id": "note_49",
+      "visual_note_id": "note_49",
+      "visual_column_id": "column_6",
+      "visual_column_index": 6,
+      "visual_confidence": 0.8050639016156257,
+      "sheet_type": null,
+      "metadata": {
+        "visual_region_class": "note",
+        "visual_region_id": "note_49",
+        "visual_note_id": "note_49",
+        "visual_confidence": 0.8050639016156257,
+        "visual_column_id": "column_6",
+        "visual_column_index": 6
+      }
+    },
+    {
+      "id": "66af59ea-2901-4ed9-9391-4ebe8e25f84a",
+      "content": "WM1.0 - WASH SHED MECHANICAL PLAN\nWE1.0 - WASH SHED LIGHTING PLAN",
+      "type": "note_group",
+      "page": 1,
+      "source_file": null,
+      "bbox": {
+        "x0": 2049.599853515625,
+        "y0": 478.4328918457031,
+        "x1": 2289.00537109375,
+        "y1": 508.6221008300781
+      },
+      "visual_region_class": "note",
+      "visual_region_id": "note_55",
+      "visual_note_id": "note_55",
+      "visual_column_id": "column_6",
+      "visual_column_index": 6,
+      "visual_confidence": 0.8050639016156257,
+      "sheet_type": null,
+      "metadata": {
+        "visual_region_class": "note",
+        "visual_region_id": "note_55",
+        "visual_note_id": "note_55",
+        "visual_confidence": 0.8050639016156257,
+        "visual_column_id": "column_6",
+        "visual_column_index": 6
+      }
+    },
+    {
+      "id": "a9653059-3438-48b6-b690-5c2269de4ee8",
+      "content": "WE2.0 - WASH SHED POWER & SYSTEMS PLAN\nWP1.0 - WASH SHED PLUMBING PLANS",
+      "type": "note_group",
+      "page": 1,
+      "source_file": null,
+      "bbox": {
+        "x0": 2049.599853515625,
+        "y0": 514.7928466796875,
+        "x1": 2325.912353515625,
+        "y1": 545.1021118164062
+      },
+      "visual_region_class": "note",
+      "visual_region_id": "note_61",
+      "visual_note_id": "note_61",
+      "visual_column_id": "column_6",
+      "visual_column_index": 6,
+      "visual_confidence": 0.8050639016156257,
+      "sheet_type": null,
+      "metadata": {
+        "visual_region_class": "note",
+        "visual_region_id": "note_61",
+        "visual_note_id": "note_61",
+        "visual_confidence": 0.8050639016156257,
+        "visual_column_id": "column_6",
+        "visual_column_index": 6
+      }
+    }
+  ]
+}

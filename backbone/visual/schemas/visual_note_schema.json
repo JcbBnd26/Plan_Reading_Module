@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "source_file": "Test Page 3.pdf",
+    "version": "1.0",
+    "date_generated": "2025-11-24",
+    "notes": "Generated from fully user-labeled sheet with color-coded bounding boxes."
+  },
+  "color_classes": {
+    "column": { "hex": "#00FDFF" },
+    "column_header": { "hex": "#FF2600" },
+    "note": { "hex": "#00F900" },
+    "legend": { "hex": "#AA7942" },
+    "sheet_info": { "hex": "#0433FF" },
+    "whole_sheet": { "hex": "#FF9300" },
+    "xenoglyph": { "hex": "#FF40FF" }
+  },
+  "page_structure": {
+    "whole_sheet_bbox": null,
+    "sheet_info_bbox": null,
+    "columns": [],
+    "column_headers": [],
+    "notes": [],
+    "legend_boxes": [],
+    "xenoglyph_boxes": []
+  },
+  "rules": {
+    "grouping": {
+      "column_detection": {
+        "required_color": "#00FDFF",
+        "min_height_ratio": 0.30,
+        "width_tolerance_px": 25,
+        "treat_as_vertical_container": true
+      },
+      "column_header_detection": {
+        "required_color": "#FF2600",
+        "alignment_requirement": "top_of_column",
+        "max_vertical_gap_px": 40
+      },
+      "note_detection": {
+        "required_color": "#00F900",
+        "must_have_callout_number": true,
+        "expected_structure": "bullet + text_block",
+        "horizontal_span_tolerance_px": 15,
+        "vertical_gap_merge_threshold_px": 18
+      },
+      "legend_detection": {
+        "required_color": "#AA7942",
+        "treat_as_isolated_region": true,
+        "exclude_from_note_column_grouping": true
+      },
+      "sheet_info_detection": {
+        "required_color": "#0433FF",
+        "treat_as_metadata_region": true,
+        "exclude_from_semantic_narrative": true
+      },
+      "xenoglyph_detection": {
+        "required_color": "#FF40FF",
+        "capture_unknown_symbols": true,
+        "review_flag": true
+      }
+    },
+    "relationships": {
+      "columns_contain_notes": true,
+      "column_header_belongs_to_column": true,
+      "notes_belong_to_header_above": true,
+      "legend_independent": true,
+      "xenoglyph_no_assumed_relationships": true
+    },
+    "confidence_models": {
+      "note_identification": {
+        "features": [
+          "color_match",
+          "text_presence",
+          "bullet_pattern",
+          "left_indent_alignment",
+          "bounding_box_ratio"
+        ]
+      },
+      "column_detection": {
+        "features": [
+          "tall_vertical_container",
+          "consistent_note_children",
+          "header_alignment"
+        ]
+      }
+    }
+  }
+}

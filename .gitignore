@@ -1,0 +1,128 @@
+# =========================
+# OS / Editor / IDE
+# =========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyd
+*.pyo
+*.pbi
+*.pkl
+*.pickle
+*.pkl.gz
+*.so
+*.dylib
+
+.venv/
+venv/
+ENV/
+env/
+pip-wheel-metadata/
+*.egg-info/
+.eggs/
+dist/
+build/
+wheelhouse/
+pip-log.txt
+pip-delete-this-directory.txt
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+.pytype/
+hypothesis/
+*.log
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Project Outputs / Artifacts
+# =========================
+# Your pipeline outputs live here; keep code clean
+exports/
+artifacts/
+output/
+outputs/
+out/
+tmp/
+temp/
+cache/
+caches/
+
+# If you ever keep a "MostRecent" outside exports, ignore it too
+MostRecent/
+
+# =========================
+# Data / PDFs / Images
+# =========================
+# Usually large + not source-controlled
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.bmp
+*.webp
+
+# Re-allow documentation assets (tracked on purpose)
+!docs/**/*.pdf
+!docs/**/*.{png,jpg,jpeg,webp,svg}
+!assets/**/*.{png,jpg,jpeg,webp,svg}
+
+# If you have sample inputs you DO want tracked, put them under /samples
+# and remove patterns above or add negations like:
+# !samples/**/*.pdf
+
+# =========================
+# Zips / Archives
+# =========================
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.rar
+
+# =========================
+# Secrets / Local Config
+# =========================
+.env
+.env.*
+.envrc
+*.pem
+*.key
+*.crt
+secrets/
+config.local.json
+settings.local.json
+
+# =========================
+# Notes / scratch
+# =========================
+*.swp
+*.swo
+*.tmp
+scratch/
+notes_private/

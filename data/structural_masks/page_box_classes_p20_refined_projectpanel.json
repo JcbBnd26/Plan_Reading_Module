@@ -1,0 +1,1449 @@
+{
+  "boxes_source": "C:\\Projects\\backbone_skeleton\\exports\\structural\\page_boxes_p20.json",
+  "ocr_source": "C:\\Projects\\backbone_skeleton\\data\\ocr_raw\\all_pages_notes_sheetwide.json",
+  "pages": {
+    "20": {
+      "min_x": 107.64,
+      "max_x": 2412.72,
+      "min_y": 35.28,
+      "max_y": 1548.72,
+      "boxes": [
+        {
+          "id": 1,
+          "bbox_pdf": [
+            107.64,
+            35.28,
+            2256.48,
+            1548.72
+          ],
+          "area_frac": 0.8386923796791443,
+          "parent_id": null,
+          "children_ids": [],
+          "type": "page_border",
+          "header_text": "A DESIGN CRITERIA\nAPPLICABLE BUILDING CODES 7'-2\"\n14'-11\"",
+          "text_sample": "A DESIGN CRITERIA\nAPPLICABLE BUILDING CODES 7'-2\"\n14'-11\" IBC 2018\nINTERNATIONAL BUILDING CODE\nASCE 7-16\nMINIMUM DESIGN LOADS FOR BUILDINGS AND OTHER STRUCTURES\nAISC 303-16\nCODE OF STANDARD PRACTICE F",
+          "chunk_indices": [
+            1413,
+            1414,
+            1415,
+            1416,
+            1417,
+            1418,
+            1419,
+            1420,
+            1421,
+            1422,
+            1423,
+            1424,
+            1425,
+            1426,
+            1427,
+            1428,
+            1429,
+            1430,
+            1431,
+            1432,
+            1433,
+            1434,
+            1435,
+            1436,
+            1437,
+            1438,
+            1440,
+            1441,
+            1442,
+            1443,
+            1444,
+            1445,
+            1446,
+            1447,
+            1448,
+            1449,
+            1450,
+            1451,
+            1452,
+            1453,
+            1454,
+            1455,
+            1458,
+            1459,
+            1460,
+            1461,
+            1462,
+            1463,
+            1464,
+            1465,
+            1467,
+            1468,
+            1469,
+            1470,
+            1471,
+            1472,
+            1473,
+            1474,
+            1475,
+            1476,
+            1479,
+            1481,
+            1482,
+            1485,
+            1486,
+            1487,
+            1488,
+            1490,
+            1491,
+            1496,
+            1497,
+            1498,
+            1499,
+            1500,
+            1501,
+            1502,
+            1503,
+            1506
+          ]
+        },
+        {
+          "id": 2,
+          "bbox_pdf": [
+            109.08,
+            37.08,
+            2254.68,
+            1546.9199999999998
+          ],
+          "area_frac": 0.8354358288770053,
+          "parent_id": null,
+          "children_ids": [
+            3,
+            4,
+            7,
+            8,
+            13,
+            20,
+            23,
+            24,
+            29,
+            38,
+            59,
+            63,
+            64,
+            68
+          ],
+          "type": "page_border",
+          "header_text": "A DESIGN CRITERIA\nAPPLICABLE BUILDING CODES 7'-2\"\n14'-11\"",
+          "text_sample": "A DESIGN CRITERIA\nAPPLICABLE BUILDING CODES 7'-2\"\n14'-11\" IBC 2018\nINTERNATIONAL BUILDING CODE\nASCE 7-16\nMINIMUM DESIGN LOADS FOR BUILDINGS AND OTHER STRUCTURES\nAISC 303-16\nCODE OF STANDARD PRACTICE F",
+          "chunk_indices": [
+            1413,
+            1414,
+            1415,
+            1416,
+            1417,
+            1418,
+            1419,
+            1420,
+            1421,
+            1422,
+            1423,
+            1424,
+            1425,
+            1426,
+            1427,
+            1428,
+            1429,
+            1430,
+            1431,
+            1432,
+            1433,
+            1434,
+            1435,
+            1436,
+            1437,
+            1438,
+            1440,
+            1441,
+            1442,
+            1443,
+            1444,
+            1445,
+            1446,
+            1447,
+            1448,
+            1449,
+            1450,
+            1451,
+            1452,
+            1453,
+            1454,
+            1455,
+            1458,
+            1459,
+            1460,
+            1461,
+            1462,
+            1463,
+            1464,
+            1465,
+            1467,
+            1468,
+            1469,
+            1470,
+            1471,
+            1472,
+            1473,
+            1474,
+            1475,
+            1476,
+            1479,
+            1481,
+            1482,
+            1485,
+            1486,
+            1487,
+            1488,
+            1490,
+            1491,
+            1496,
+            1497,
+            1498,
+            1499,
+            1500,
+            1501,
+            1502,
+            1503,
+            1506
+          ]
+        },
+        {
+          "id": 3,
+          "bbox_pdf": [
+            208.07999999999998,
+            171.35999999999999,
+            1050.84,
+            1006.92
+          ],
+          "area_frac": 0.1815996323529412,
+          "parent_id": 2,
+          "children_ids": [
+            9,
+            10,
+            12,
+            16,
+            17,
+            31,
+            32,
+            37,
+            44
+          ],
+          "type": "unknown",
+          "header_text": "7'-2\"\n14'-11\" 5'-0\"\n5'-0\"\n4'-11\"\n3'-6\"\n3'-8\" AS REQ'D",
+          "text_sample": "7'-2\"\n14'-11\" 5'-0\"\n5'-0\"\n4'-11\"\n3'-6\"\n3'-8\" AS REQ'D 3\nFS2.0\n________ HSS14X4X1/4\nDOG LEG FUEL TANK AND\nEQUIPMENT (BELOW)\nBY OTHERS HSS10X10X3/8 1/4\" / 12\"\n3/8\" / 12\" 1\n1 HSS8X4X1/2\nHSS8X4X1/2 7 FS2.",
+          "chunk_indices": [
+            1415,
+            1417,
+            1418,
+            1419,
+            1422,
+            1430,
+            1436,
+            1437,
+            1438,
+            1440,
+            1452,
+            1454,
+            1458,
+            1459,
+            1460,
+            1461,
+            1462,
+            1463,
+            1464,
+            1467,
+            1469,
+            1471,
+            1472,
+            1474,
+            1475,
+            1476,
+            1481,
+            1485
+          ]
+        },
+        {
+          "id": 4,
+          "bbox_pdf": [
+            415.08,
+            299.88,
+            1011.5999999999999,
+            1002.5999999999999
+          ],
+          "area_frac": 0.10810374331550802,
+          "parent_id": 2,
+          "children_ids": [
+            5,
+            30,
+            43,
+            53,
+            70
+          ],
+          "type": "unknown",
+          "header_text": "HSS10X10X3/8 1/4\" / 12\"\n3/8\" / 12\" 1\n1",
+          "text_sample": "HSS10X10X3/8 1/4\" / 12\"\n3/8\" / 12\" 1\n1 HSS8X4X1/2\nHSS8X4X1/2 7 FS2.0\n________ HSS3X1-1/2X1/4 (HI)\nHSS12X12X1/2 (LO) HSS3X1-1/2X1/4 HSS3X1-1/2X1/4 HSS3X1-1/2X1/4 HSS3X1-1/2X1/4 HSS14X4X1/4 5\nFS2.0\n____",
+          "chunk_indices": [
+            1436,
+            1437,
+            1438,
+            1440,
+            1452,
+            1454,
+            1458,
+            1459,
+            1460,
+            1461,
+            1462,
+            1464,
+            1467,
+            1469,
+            1471,
+            1472,
+            1474,
+            1475,
+            1481,
+            1485
+          ]
+        },
+        {
+          "id": 5,
+          "bbox_pdf": [
+            621.72,
+            307.08,
+            1004.76,
+            995.4
+          ],
+          "area_frac": 0.06799358288770053,
+          "parent_id": 4,
+          "children_ids": [
+            18,
+            19,
+            26,
+            27,
+            33,
+            40,
+            46
+          ],
+          "type": "unknown",
+          "header_text": "HSS10X10X3/8 1/4\" / 12\"\n3/8\" / 12\" 1\n1",
+          "text_sample": "HSS10X10X3/8 1/4\" / 12\"\n3/8\" / 12\" 1\n1 HSS8X4X1/2\nHSS8X4X1/2 7 FS2.0\n________ HSS3X1-1/2X1/4 HSS3X1-1/2X1/4 HSS3X1-1/2X1/4 HSS14X4X1/4 5\nFS2.0\n________ HSS8X4X1/2\nHSS8X4X1/2 2\n2 6 FS2.0\n________ 8\nFS2",
+          "chunk_indices": [
+            1436,
+            1437,
+            1438,
+            1440,
+            1452,
+            1454,
+            1460,
+            1461,
+            1462,
+            1464,
+            1467,
+            1469,
+            1471,
+            1472,
+            1474,
+            1481,
+            1485
+          ]
+        },
+        {
+          "id": 6,
+          "bbox_pdf": [
+            2272.3199999999997,
+            35.28,
+            2412.72,
+            1548.72
+          ],
+          "area_frac": 0.060908948930189014,
+          "parent_id": null,
+          "children_ids": [
+            22,
+            28,
+            34,
+            41,
+            45,
+            47,
+            51,
+            52
+          ],
+          "type": "title_block",
+          "header_text": "OK CA#: 32  EXP.: -06-30\nWWW.CONNECTCEC.COM\nCEC CORPORATION\n2026 08-08-2025",
+          "text_sample": "OK CA#: 32  EXP.: -06-30\nWWW.CONNECTCEC.COM\nCEC CORPORATION\n2026 08-08-2025 NO. DESCRIPTION\nDATE SUBMITTAL:\nREVISION HISTORY CONSTRUCTION\nDOCUMENTS AS INDICATED 240622\n08/08/2025 CS\nAH\nCS DATE:\nPROJEC",
+          "chunk_indices": [
+            1411,
+            1412,
+            1439,
+            1456,
+            1457,
+            1466,
+            1477,
+            1478,
+            1480,
+            1483,
+            1484,
+            1489,
+            1492,
+            1493,
+            1494,
+            1495,
+            1505,
+            1507,
+            1509
+          ]
+        },
+        {
+          "id": 7,
+          "bbox_pdf": [
+            1015.1999999999999,
+            295.92,
+            1289.8799999999999,
+            1006.56
+          ],
+          "area_frac": 0.05033963903743315,
+          "parent_id": 2,
+          "children_ids": [
+            48,
+            49,
+            57,
+            58,
+            60,
+            61
+          ],
+          "type": "unknown",
+          "header_text": "7'-7\"\n10'-10\"\n7'-7\" 8'-8\"\n8'-8\"\n8'-8\" 4",
+          "text_sample": "7'-7\"\n10'-10\"\n7'-7\" 8'-8\"\n8'-8\"\n8'-8\" 4 FS2.0\n________ 26'-0\" 1.5\"x22GA. TYPE \"B\"\nMETAL ROOF DECK\n(GALV.) W/ 36/4/1 DECK\nATTACHMENTS",
+          "chunk_indices": [
+            1429,
+            1431,
+            1453,
+            1455,
+            1465,
+            1479
+          ]
+        },
+        {
+          "id": 8,
+          "bbox_pdf": [
+            1368.72,
+            1030.32,
+            1885.32,
+            1360.44
+          ],
+          "area_frac": 0.043980447860962564,
+          "parent_id": 2,
+          "children_ids": [
+            62
+          ],
+          "type": "unknown",
+          "header_text": "T.O. STEEL 115'-10 3/8\"",
+          "text_sample": "T.O. STEEL 115'-10 3/8\"",
+          "chunk_indices": [
+            1490
+          ]
+        },
+        {
+          "id": 9,
+          "bbox_pdf": [
+            416.15999999999997,
+            470.15999999999997,
+            607.3199999999999,
+            849.6
+          ],
+          "area_frac": 0.01870568181818182,
+          "parent_id": 3,
+          "children_ids": [
+            15,
+            36
+          ],
+          "type": "unknown",
+          "header_text": "HSS3X1-1/2X1/4 (HI)\nHSS12X12X1/2 (LO) HSS3X1-1/2X1/4 HSS10X10X3/8",
+          "text_sample": "HSS3X1-1/2X1/4 (HI)\nHSS12X12X1/2 (LO) HSS3X1-1/2X1/4 HSS10X10X3/8",
+          "chunk_indices": [
+            1458,
+            1459,
+            1475
+          ]
+        },
+        {
+          "id": 10,
+          "bbox_pdf": [
+            487.79999999999995,
+            196.92,
+            1004.76,
+            298.8
+          ],
+          "area_frac": 0.013582486631016043,
+          "parent_id": 3,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "AS REQ'D",
+          "text_sample": "AS REQ'D",
+          "chunk_indices": [
+            1418
+          ]
+        },
+        {
+          "id": 12,
+          "bbox_pdf": [
+            419.03999999999996,
+            301.32,
+            607.3199999999999,
+            560.16
+          ],
+          "area_frac": 0.012568081550802138,
+          "parent_id": 3,
+          "children_ids": [
+            25
+          ],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 13,
+          "bbox_pdf": [
+            610.1999999999999,
+            1179.0,
+            882.0,
+            1345.32
+          ],
+          "area_frac": 0.011658088235294118,
+          "parent_id": 2,
+          "children_ids": [
+            14
+          ],
+          "type": "notes_box",
+          "header_text": "FRAMING PLAN NOTES: 1. STRUCTURAL ELEVATION 100'-0\" EQUALS CIVIL\nTOP OF PAVING, REFER CIVIL. 2. REFER SHEET S1.0 FOR GENERAL NOTES",
+          "text_sample": "FRAMING PLAN NOTES: 1. STRUCTURAL ELEVATION 100'-0\" EQUALS CIVIL\nTOP OF PAVING, REFER CIVIL. 2. REFER SHEET S1.0 FOR GENERAL NOTES 3. \u25baDENOTES MOMENT CONNECTION. 4. ALL EXPOSED ENDS OF HSS SHALL BE CA",
+          "chunk_indices": [
+            1496,
+            1497,
+            1498,
+            1499,
+            1500,
+            1501,
+            1502
+          ]
+        },
+        {
+          "id": 14,
+          "bbox_pdf": [
+            612.0,
+            1181.1599999999999,
+            880.1999999999999,
+            1343.52
+          ],
+          "area_frac": 0.011229779411764706,
+          "parent_id": 13,
+          "children_ids": [],
+          "type": "notes_box",
+          "header_text": "FRAMING PLAN NOTES: 1. STRUCTURAL ELEVATION 100'-0\" EQUALS CIVIL\nTOP OF PAVING, REFER CIVIL. 2. REFER SHEET S1.0 FOR GENERAL NOTES",
+          "text_sample": "FRAMING PLAN NOTES: 1. STRUCTURAL ELEVATION 100'-0\" EQUALS CIVIL\nTOP OF PAVING, REFER CIVIL. 2. REFER SHEET S1.0 FOR GENERAL NOTES 3. \u25baDENOTES MOMENT CONNECTION. 4. ALL EXPOSED ENDS OF HSS SHALL BE CA",
+          "chunk_indices": [
+            1496,
+            1497,
+            1498,
+            1499,
+            1500,
+            1501,
+            1502
+          ]
+        },
+        {
+          "id": 15,
+          "bbox_pdf": [
+            421.91999999999996,
+            531.36,
+            597.6,
+            749.16
+          ],
+          "area_frac": 0.00986764705882353,
+          "parent_id": 9,
+          "children_ids": [],
+          "type": "callout",
+          "header_text": "HSS3X1-1/2X1/4 (HI)\nHSS12X12X1/2 (LO) HSS3X1-1/2X1/4",
+          "text_sample": "HSS3X1-1/2X1/4 (HI)\nHSS12X12X1/2 (LO) HSS3X1-1/2X1/4",
+          "chunk_indices": [
+            1458,
+            1459
+          ]
+        },
+        {
+          "id": 16,
+          "bbox_pdf": [
+            877.3199999999999,
+            564.84,
+            1010.16,
+            849.6
+          ],
+          "area_frac": 0.009755314171122995,
+          "parent_id": 3,
+          "children_ids": [],
+          "type": "callout",
+          "header_text": "HSS14X4X1/4 5\nFS2.0\n________",
+          "text_sample": "HSS14X4X1/4 5\nFS2.0\n________",
+          "chunk_indices": [
+            1464,
+            1467
+          ]
+        },
+        {
+          "id": 17,
+          "bbox_pdf": [
+            648.72,
+            851.4,
+            877.68,
+            997.1999999999999
+          ],
+          "area_frac": 0.008608957219251336,
+          "parent_id": 3,
+          "children_ids": [],
+          "type": "callout",
+          "header_text": "8\nFS2.0\n________ HSS14X4X1/4",
+          "text_sample": "8\nFS2.0\n________ HSS14X4X1/4",
+          "chunk_indices": [
+            1481,
+            1485
+          ]
+        },
+        {
+          "id": 18,
+          "bbox_pdf": [
+            741.9599999999999,
+            534.6,
+            875.88,
+            767.88
+          ],
+          "area_frac": 0.00805668449197861,
+          "parent_id": 5,
+          "children_ids": [],
+          "type": "callout",
+          "header_text": "HSS3X1-1/2X1/4",
+          "text_sample": "HSS3X1-1/2X1/4",
+          "chunk_indices": [
+            1462
+          ]
+        },
+        {
+          "id": 19,
+          "bbox_pdf": [
+            742.3199999999999,
+            535.3199999999999,
+            875.16,
+            767.16
+          ],
+          "area_frac": 0.007942379679144384,
+          "parent_id": 5,
+          "children_ids": [],
+          "type": "callout",
+          "header_text": "HSS3X1-1/2X1/4",
+          "text_sample": "HSS3X1-1/2X1/4",
+          "chunk_indices": [
+            1462
+          ]
+        },
+        {
+          "id": 20,
+          "bbox_pdf": [
+            419.03999999999996,
+            851.04,
+            607.3199999999999,
+            1001.16
+          ],
+          "area_frac": 0.00728913770053476,
+          "parent_id": 2,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 22,
+          "bbox_pdf": [
+            2274.12,
+            234.0,
+            2410.56,
+            406.8
+          ],
+          "area_frac": 0.0060802139037433155,
+          "parent_id": 6,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 23,
+          "bbox_pdf": [
+            1449.72,
+            1436.76,
+            1928.1599999999999,
+            1483.56
+          ],
+          "area_frac": 0.005774398395721925,
+          "parent_id": 2,
+          "children_ids": [],
+          "type": "callout",
+          "header_text": "SCALE : 1/4\" = 1'-0\"\n2\nFUEL CANOPY ELEVATION",
+          "text_sample": "SCALE : 1/4\" = 1'-0\"\n2\nFUEL CANOPY ELEVATION",
+          "chunk_indices": [
+            1506
+          ]
+        },
+        {
+          "id": 24,
+          "bbox_pdf": [
+            524.52,
+            1075.32,
+            1002.5999999999999,
+            1122.12
+          ],
+          "area_frac": 0.005770053475935829,
+          "parent_id": 2,
+          "children_ids": [],
+          "type": "callout",
+          "header_text": "SCALE : 3/8\" = 1'-0\"\n1\nFUEL CANOPY FRAMING PLAN",
+          "text_sample": "SCALE : 3/8\" = 1'-0\"\n1\nFUEL CANOPY FRAMING PLAN",
+          "chunk_indices": [
+            1491
+          ]
+        },
+        {
+          "id": 25,
+          "bbox_pdf": [
+            456.47999999999996,
+            306.0,
+            546.84,
+            516.24
+          ],
+          "area_frac": 0.004899197860962567,
+          "parent_id": 12,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 26,
+          "bbox_pdf": [
+            660.24,
+            534.6,
+            740.88,
+            767.88
+          ],
+          "area_frac": 0.004851336898395722,
+          "parent_id": 5,
+          "children_ids": [],
+          "type": "callout",
+          "header_text": "7 FS2.0\n________ HSS3X1-1/2X1/4",
+          "text_sample": "7 FS2.0\n________ HSS3X1-1/2X1/4 HSS8X4X1/2\nHSS8X4X1/2",
+          "chunk_indices": [
+            1452,
+            1454,
+            1461,
+            1469
+          ]
+        },
+        {
+          "id": 27,
+          "bbox_pdf": [
+            660.6,
+            535.3199999999999,
+            740.16,
+            767.16
+          ],
+          "area_frac": 0.0047568181818181815,
+          "parent_id": 5,
+          "children_ids": [],
+          "type": "callout",
+          "header_text": "7 FS2.0\n________ HSS3X1-1/2X1/4",
+          "text_sample": "7 FS2.0\n________ HSS3X1-1/2X1/4",
+          "chunk_indices": [
+            1452,
+            1454,
+            1461
+          ]
+        },
+        {
+          "id": 28,
+          "bbox_pdf": [
+            2274.12,
+            470.88,
+            2410.92,
+            588.9599999999999
+          ],
+          "area_frac": 0.004165775401069519,
+          "parent_id": 6,
+          "children_ids": [
+            42
+          ],
+          "type": "callout",
+          "header_text": "08-08-2025",
+          "text_sample": "08-08-2025",
+          "chunk_indices": [
+            1439
+          ]
+        },
+        {
+          "id": 29,
+          "bbox_pdf": [
+            618.48,
+            960.48,
+            1004.76,
+            1001.16
+          ],
+          "area_frac": 0.004052439839572193,
+          "parent_id": 2,
+          "children_ids": [],
+          "type": "callout",
+          "header_text": "HSS14X4X1/4",
+          "text_sample": "HSS14X4X1/4",
+          "chunk_indices": [
+            1485
+          ]
+        },
+        {
+          "id": 30,
+          "bbox_pdf": [
+            877.3199999999999,
+            876.9599999999999,
+            1004.76,
+            996.12
+          ],
+          "area_frac": 0.003916243315508021,
+          "parent_id": 4,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 31,
+          "bbox_pdf": [
+            419.03999999999996,
+            851.04,
+            510.84,
+            996.48
+          ],
+          "area_frac": 0.0034431818181818183,
+          "parent_id": 3,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 32,
+          "bbox_pdf": [
+            876.6,
+            197.28,
+            1010.52,
+            294.47999999999996
+          ],
+          "area_frac": 0.003356951871657754,
+          "parent_id": 3,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 33,
+          "bbox_pdf": [
+            742.3199999999999,
+            769.3199999999999,
+            875.16,
+            849.6
+          ],
+          "area_frac": 0.0027502339572192513,
+          "parent_id": 5,
+          "children_ids": [],
+          "type": "callout",
+          "header_text": "2\n2",
+          "text_sample": "2\n2",
+          "chunk_indices": [
+            1471
+          ]
+        },
+        {
+          "id": 34,
+          "bbox_pdf": [
+            2274.12,
+            1420.2,
+            2410.92,
+            1494.72
+          ],
+          "area_frac": 0.002629010695187166,
+          "parent_id": 6,
+          "children_ids": [],
+          "type": "callout",
+          "header_text": "SHEET NAME FUEL CANOPY\nFRAMING",
+          "text_sample": "SHEET NAME FUEL CANOPY\nFRAMING",
+          "chunk_indices": [
+            1505,
+            1507
+          ]
+        },
+        {
+          "id": 36,
+          "bbox_pdf": [
+            420.47999999999996,
+            763.56,
+            598.3199999999999,
+            819.0
+          ],
+          "area_frac": 0.0025426470588235293,
+          "parent_id": 9,
+          "children_ids": [
+            39
+          ],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 37,
+          "bbox_pdf": [
+            415.8,
+            196.92,
+            513.36,
+            295.56
+          ],
+          "area_frac": 0.002481751336898396,
+          "parent_id": 3,
+          "children_ids": [],
+          "type": "callout",
+          "header_text": "3\nFS2.0\n________",
+          "text_sample": "3\nFS2.0\n________",
+          "chunk_indices": [
+            1419
+          ]
+        },
+        {
+          "id": 38,
+          "bbox_pdf": [
+            415.44,
+            179.64,
+            1010.88,
+            195.48
+          ],
+          "area_frac": 0.0024323529411764706,
+          "parent_id": 2,
+          "children_ids": [],
+          "type": "callout",
+          "header_text": "5'-0\"\n5'-0\"\n4'-11\"\n3'-6\"\n3'-8\"",
+          "text_sample": "5'-0\"\n5'-0\"\n4'-11\"\n3'-6\"\n3'-8\"",
+          "chunk_indices": [
+            1417
+          ]
+        },
+        {
+          "id": 39,
+          "bbox_pdf": [
+            421.56,
+            767.88,
+            597.6,
+            818.28
+          ],
+          "area_frac": 0.002288101604278075,
+          "parent_id": 36,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 40,
+          "bbox_pdf": [
+            660.6,
+            851.04,
+            740.16,
+            959.04
+          ],
+          "area_frac": 0.002215909090909091,
+          "parent_id": 5,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 41,
+          "bbox_pdf": [
+            2274.12,
+            408.24,
+            2410.92,
+            468.35999999999996
+          ],
+          "area_frac": 0.002120989304812834,
+          "parent_id": 6,
+          "children_ids": [
+            77
+          ],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 42,
+          "bbox_pdf": [
+            2292.12,
+            473.4,
+            2396.16,
+            546.84
+          ],
+          "area_frac": 0.0019704545454545456,
+          "parent_id": 28,
+          "children_ids": [],
+          "type": "callout",
+          "header_text": "08-08-2025",
+          "text_sample": "08-08-2025",
+          "chunk_indices": [
+            1439
+          ]
+        },
+        {
+          "id": 43,
+          "bbox_pdf": [
+            621.72,
+            561.6,
+            658.8,
+            767.16
+          ],
+          "area_frac": 0.0019656751336898396,
+          "parent_id": 4,
+          "children_ids": [],
+          "type": "callout",
+          "header_text": "HSS3X1-1/2X1/4",
+          "text_sample": "HSS3X1-1/2X1/4",
+          "chunk_indices": [
+            1460
+          ]
+        },
+        {
+          "id": 44,
+          "bbox_pdf": [
+            877.3199999999999,
+            851.04,
+            1010.16,
+            905.04
+          ],
+          "area_frac": 0.0018499331550802139,
+          "parent_id": 3,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 45,
+          "bbox_pdf": [
+            2274.12,
+            1496.1599999999999,
+            2410.92,
+            1546.9199999999998
+          ],
+          "area_frac": 0.0017907754010695186,
+          "parent_id": 6,
+          "children_ids": [],
+          "type": "callout",
+          "header_text": "SHEET\nFS1.0",
+          "text_sample": "SHEET\nFS1.0",
+          "chunk_indices": [
+            1509
+          ]
+        },
+        {
+          "id": 46,
+          "bbox_pdf": [
+            660.6,
+            769.3199999999999,
+            740.16,
+            849.6
+          ],
+          "area_frac": 0.0016471590909090908,
+          "parent_id": 5,
+          "children_ids": [],
+          "type": "callout",
+          "header_text": "6 FS2.0\n________",
+          "text_sample": "6 FS2.0\n________",
+          "chunk_indices": [
+            1472,
+            1474
+          ]
+        },
+        {
+          "id": 47,
+          "bbox_pdf": [
+            2305.08,
+            457.2,
+            2381.4,
+            533.52
+          ],
+          "area_frac": 0.001502139037433155,
+          "parent_id": 6,
+          "children_ids": [],
+          "type": "callout",
+          "header_text": "08-08-2025",
+          "text_sample": "08-08-2025",
+          "chunk_indices": [
+            1439
+          ]
+        },
+        {
+          "id": 48,
+          "bbox_pdf": [
+            1202.04,
+            505.79999999999995,
+            1219.32,
+            797.04
+          ],
+          "area_frac": 0.0012978609625668449,
+          "parent_id": 7,
+          "children_ids": [],
+          "type": "callout",
+          "header_text": "26'-0\"",
+          "text_sample": "26'-0\"",
+          "chunk_indices": [
+            1465
+          ]
+        },
+        {
+          "id": 49,
+          "bbox_pdf": [
+            1184.3999999999999,
+            505.44,
+            1200.96,
+            797.04
+          ],
+          "area_frac": 0.0012453208556149733,
+          "parent_id": 7,
+          "children_ids": [],
+          "type": "callout",
+          "header_text": "7'-7\"\n10'-10\"\n7'-7\"",
+          "text_sample": "7'-7\"\n10'-10\"\n7'-7\"",
+          "chunk_indices": [
+            1429
+          ]
+        },
+        {
+          "id": 51,
+          "bbox_pdf": [
+            2285.2799999999997,
+            150.48,
+            2349.72,
+            214.92
+          ],
+          "area_frac": 0.001070889037433155,
+          "parent_id": 6,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 52,
+          "bbox_pdf": [
+            2285.64,
+            151.2,
+            2349.0,
+            214.2
+          ],
+          "area_frac": 0.0010294117647058824,
+          "parent_id": 6,
+          "children_ids": [
+            55
+          ],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 53,
+          "bbox_pdf": [
+            622.4399999999999,
+            851.04,
+            658.8,
+            958.68
+          ],
+          "area_frac": 0.0010093248663101604,
+          "parent_id": 4,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 55,
+          "bbox_pdf": [
+            2287.08,
+            152.28,
+            2347.92,
+            213.12
+          ],
+          "area_frac": 0.0009545788770053476,
+          "parent_id": 52,
+          "children_ids": [
+            56
+          ],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 56,
+          "bbox_pdf": [
+            2287.7999999999997,
+            153.0,
+            2347.2,
+            212.4
+          ],
+          "area_frac": 0.0009099264705882353,
+          "parent_id": 55,
+          "children_ids": [
+            66
+          ],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 57,
+          "bbox_pdf": [
+            1202.04,
+            798.12,
+            1219.32,
+            1001.52
+          ],
+          "area_frac": 0.0009064171122994653,
+          "parent_id": 7,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 58,
+          "bbox_pdf": [
+            1202.04,
+            300.96,
+            1219.32,
+            504.35999999999996
+          ],
+          "area_frac": 0.0009064171122994653,
+          "parent_id": 7,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 59,
+          "bbox_pdf": [
+            1635.48,
+            1070.6399999999999,
+            1890.72,
+            1084.32
+          ],
+          "area_frac": 0.0009004679144385026,
+          "parent_id": 2,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 60,
+          "bbox_pdf": [
+            1184.3999999999999,
+            798.12,
+            1201.32,
+            1001.52
+          ],
+          "area_frac": 0.000887533422459893,
+          "parent_id": 7,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 61,
+          "bbox_pdf": [
+            1184.3999999999999,
+            300.96,
+            1201.32,
+            504.35999999999996
+          ],
+          "area_frac": 0.000887533422459893,
+          "parent_id": 7,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 62,
+          "bbox_pdf": [
+            1619.28,
+            1092.24,
+            1632.6,
+            1346.76
+          ],
+          "area_frac": 0.000874298128342246,
+          "parent_id": 8,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 63,
+          "bbox_pdf": [
+            208.07999999999998,
+            778.3199999999999,
+            295.2,
+            816.48
+          ],
+          "area_frac": 0.0008573529411764706,
+          "parent_id": 2,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 64,
+          "bbox_pdf": [
+            1607.04,
+            950.4,
+            1644.84,
+            1030.32
+          ],
+          "area_frac": 0.0007790775401069519,
+          "parent_id": 2,
+          "children_ids": [],
+          "type": "callout",
+          "header_text": "A",
+          "text_sample": "A",
+          "chunk_indices": [
+            1482
+          ]
+        },
+        {
+          "id": 66,
+          "bbox_pdf": [
+            2289.96,
+            160.56,
+            2344.68,
+            210.23999999999998
+          ],
+          "area_frac": 0.0007010695187165775,
+          "parent_id": 56,
+          "children_ids": [
+            67
+          ],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 67,
+          "bbox_pdf": [
+            2290.68,
+            161.64,
+            2343.96,
+            209.16
+          ],
+          "area_frac": 0.0006529411764705882,
+          "parent_id": 66,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 68,
+          "bbox_pdf": [
+            1599.84,
+            1360.08,
+            1652.04,
+            1407.96
+          ],
+          "area_frac": 0.0006445521390374331,
+          "parent_id": 2,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 70,
+          "bbox_pdf": [
+            609.12,
+            516.24,
+            617.04,
+            786.24
+          ],
+          "area_frac": 0.0005514705882352941,
+          "parent_id": 4,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 77,
+          "bbox_pdf": [
+            2298.6,
+            440.28,
+            2380.68,
+            465.12
+          ],
+          "area_frac": 0.0005258021390374332,
+          "parent_id": 41,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        }
+      ]
+    }
+  }
+}

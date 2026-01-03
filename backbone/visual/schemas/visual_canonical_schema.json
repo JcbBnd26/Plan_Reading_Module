@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "description": "Canonical visual annotation schema used for harmonization and validation.",
+  "classes": {
+    "column": {
+      "required_fields": ["id", "bbox", "color_hex", "area_px"],
+      "allowed_fields": ["border_pixels"],
+      "color_hex": "#00FDFF"
+    },
+    "column_header": {
+      "required_fields": ["id", "bbox", "color_hex"],
+      "allowed_fields": ["area_px", "border_pixels"],
+      "color_hex": "#FF2600"
+    },
+    "note": {
+      "required_fields": ["id", "bbox", "color_hex"],
+      "allowed_fields": ["area_px", "border_pixels"],
+      "color_hex": "#00F900"
+    },
+    "legend": {
+      "required_fields": ["id", "bbox", "color_hex"],
+      "allowed_fields": ["area_px"],
+      "color_hex": "#AA7942"
+    },
+    "sheet_info": {
+      "required_fields": ["id", "bbox", "color_hex"],
+      "allowed_fields": [],
+      "color_hex": "#0433FF"
+    },
+    "whole_sheet": {
+      "required_fields": ["id", "bbox", "color_hex"],
+      "allowed_fields": [],
+      "color_hex": "#FF9300"
+    },
+    "xenoglyph": {
+      "required_fields": ["id", "bbox", "color_hex"],
+      "allowed_fields": ["area_px"],
+      "color_hex": "#FF40FF"
+    },
+    "special_note": {
+      "required_fields": ["id", "bbox", "color_hex"],
+      "allowed_fields": ["area_px"],
+      "color_hex": "#919191"
+    },
+    "plan_title": {
+      "required_fields": ["id", "bbox", "color_hex"],
+      "allowed_fields": ["area_px"],
+      "color_hex": "#FFFb00"
+    }
+  },
+  "bbox_rules": {
+    "bbox_min_size_px": 10,
+    "bbox_max_aspect_ratio": 20.0
+  }
+}

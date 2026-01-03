@@ -1,0 +1,1075 @@
+{
+  "metadata": {
+    "source_file": "Test Page 3.pdf",
+    "version": "1.0",
+    "date_generated": "2025-11-24",
+    "notes": "Auto-derived bounding boxes from color-coded annotations on Test Page 3.",
+    "image_size_px": {
+      "width": 6800,
+      "height": 4400
+    },
+    "dpi": 200
+  },
+  "classes": [
+    {
+      "name": "column",
+      "color_hex": "#00FDFF"
+    },
+    {
+      "name": "column_header",
+      "color_hex": "#FF2600"
+    },
+    {
+      "name": "note",
+      "color_hex": "#00F900"
+    },
+    {
+      "name": "legend",
+      "color_hex": "#AA7942"
+    },
+    {
+      "name": "sheet_info",
+      "color_hex": "#0433FF"
+    },
+    {
+      "name": "whole_sheet",
+      "color_hex": "#FF9300"
+    },
+    {
+      "name": "xenoglyph",
+      "color_hex": "#FF40FF"
+    },
+    {
+      "name": "special_note",
+      "color_hex": "#919191"
+    },
+    {
+      "name": "plan_title",
+      "color_hex": "#FFFb00"
+    }
+  ],
+  "pages": [
+    {
+      "page_index": 0,
+      "regions": {
+        "column": [
+          {
+            "id": "column_1",
+            "class": "column",
+            "color_hex": "#00FDFF",
+            "bbox": [5312, 139, 6256, 570],
+            "area_px": 414768,
+            "border_pixels": 5492
+          },
+          {
+            "id": "column_2",
+            "class": "column",
+            "color_hex": "#00FDFF",
+            "bbox": [341, 140, 1303, 4295],
+            "area_px": 3779574,
+            "border_pixels": 20460
+          },
+          {
+            "id": "column_3",
+            "class": "column",
+            "color_hex": "#00FDFF",
+            "bbox": [3323, 142, 5282, 3229],
+            "area_px": 5676882,
+            "border_pixels": 18970
+          },
+          {
+            "id": "column_4",
+            "class": "column",
+            "color_hex": "#00FDFF",
+            "bbox": [2340, 145, 3287, 4297],
+            "area_px": 6546425,
+            "border_pixels": 20558
+          },
+          {
+            "id": "column_5",
+            "class": "column",
+            "color_hex": "#00FDFF",
+            "bbox": [1347, 149, 2288, 4296],
+            "area_px": 6113597,
+            "border_pixels": 20445
+          },
+          {
+            "id": "column_6",
+            "class": "column",
+            "color_hex": "#00FDFF",
+            "bbox": [4305, 151, 6248, 4298],
+            "area_px": 8293787,
+            "border_pixels": 20959
+          },
+          {
+            "id": "column_7",
+            "class": "column",
+            "color_hex": "#00FDFF",
+            "bbox": [235, 147, 529, 563],
+            "area_px": 122688,
+            "border_pixels": 4115
+          }
+        ],
+        "column_header": [
+          {
+            "id": "column_header_1",
+            "class": "column_header",
+            "color_hex": "#FF2600",
+            "bbox": [2338, 157, 3080, 221],
+            "area_px": 47328,
+            "border_pixels": 3218
+          },
+          {
+            "id": "column_header_2",
+            "class": "column_header",
+            "color_hex": "#FF2600",
+            "bbox": [355, 158, 1059, 221],
+            "area_px": 44128,
+            "border_pixels": 3060
+          },
+          {
+            "id": "column_header_3",
+            "class": "column_header",
+            "color_hex": "#FF2600",
+            "bbox": [1347, 158, 2002, 222],
+            "area_px": 41850,
+            "border_pixels": 2869
+          },
+          {
+            "id": "column_header_4",
+            "class": "column_header",
+            "color_hex": "#FF2600",
+            "bbox": [3330, 160, 4074, 222],
+            "area_px": 46008,
+            "border_pixels": 3150
+          },
+          {
+            "id": "column_header_5",
+            "class": "column_header",
+            "color_hex": "#FF2600",
+            "bbox": [4310, 160, 5056, 224],
+            "area_px": 47424,
+            "border_pixels": 3212
+          },
+          {
+            "id": "column_header_6",
+            "class": "column_header",
+            "color_hex": "#FF2600",
+            "bbox": [5309, 161, 6051, 225],
+            "area_px": 47456,
+            "border_pixels": 3149
+          },
+          {
+            "id": "column_header_7",
+            "class": "column_header",
+            "color_hex": "#FF2600",
+            "bbox": [233, 161, 976, 224],
+            "area_px": 46926,
+            "border_pixels": 3104
+          }
+        ],
+        "note": [
+          {
+            "id": "note_1",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [5316, 225, 6193, 328],
+            "area_px": 90581,
+            "border_pixels": 3912
+          },
+          {
+            "id": "note_2",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [2341, 226, 3288, 528],
+            "area_px": 282287,
+            "border_pixels": 4988
+          },
+          {
+            "id": "note_3",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [355, 227, 1286, 331],
+            "area_px": 96201,
+            "border_pixels": 4132
+          },
+          {
+            "id": "note_4",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [1347, 227, 2280, 461],
+            "area_px": 399714,
+            "border_pixels": 4660
+          },
+          {
+            "id": "note_5",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [3331, 231, 4099, 327],
+            "area_px": 74064,
+            "border_pixels": 3448
+          },
+          {
+            "id": "note_6",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [4313, 232, 5257, 335],
+            "area_px": 97018,
+            "border_pixels": 4122
+          },
+          {
+            "id": "note_7",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [5317, 347, 6192, 455],
+            "area_px": 92420,
+            "border_pixels": 3993
+          },
+          {
+            "id": "note_8",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [2341, 348, 3289, 650],
+            "area_px": 287024,
+            "border_pixels": 5056
+          },
+          {
+            "id": "note_9",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [355, 351, 1285, 454],
+            "area_px": 95730,
+            "border_pixels": 4132
+          },
+          {
+            "id": "note_10",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [1347, 350, 2280, 586],
+            "area_px": 399798,
+            "border_pixels": 4697
+          },
+          {
+            "id": "note_11",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [3330, 349, 4100, 445],
+            "area_px": 73920,
+            "border_pixels": 3448
+          },
+          {
+            "id": "note_12",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [4314, 353, 5257, 458],
+            "area_px": 98693,
+            "border_pixels": 4178
+          },
+          {
+            "id": "note_13",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [5317, 468, 6192, 573],
+            "area_px": 92325,
+            "border_pixels": 3966
+          },
+          {
+            "id": "note_14",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [2341, 469, 3288, 771],
+            "area_px": 282247,
+            "border_pixels": 4959
+          },
+          {
+            "id": "note_15",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [355, 472, 1285, 575],
+            "area_px": 95440,
+            "border_pixels": 4091
+          },
+          {
+            "id": "note_16",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [1347, 472, 2280, 706],
+            "area_px": 399666,
+            "border_pixels": 4707
+          },
+          {
+            "id": "note_17",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [3330, 469, 4100, 572],
+            "area_px": 78270,
+            "border_pixels": 3563
+          },
+          {
+            "id": "note_18",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [4314, 472, 5257, 578],
+            "area_px": 100722,
+            "border_pixels": 4179
+          },
+          {
+            "id": "note_19",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [5317, 589, 6192, 692],
+            "area_px": 92325,
+            "border_pixels": 3970
+          },
+          {
+            "id": "note_20",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [2341, 590, 3288, 894],
+            "area_px": 285787,
+            "border_pixels": 5039
+          },
+          {
+            "id": "note_21",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [355, 593, 1285, 699],
+            "area_px": 96320,
+            "border_pixels": 4155
+          },
+          {
+            "id": "note_22",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [1347, 593, 2280, 828],
+            "area_px": 401823,
+            "border_pixels": 4714
+          },
+          {
+            "id": "note_23",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [3330, 591, 4100, 694],
+            "area_px": 77970,
+            "border_pixels": 3544
+          },
+          {
+            "id": "note_24",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [4313, 594, 5256, 699],
+            "area_px": 98633,
+            "border_pixels": 4181
+          },
+          {
+            "id": "note_25",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [5317, 711, 6192, 817],
+            "area_px": 92325,
+            "border_pixels": 3966
+          },
+          {
+            "id": "note_26",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [2341, 713, 3288, 1015],
+            "area_px": 282247,
+            "border_pixels": 5024
+          },
+          {
+            "id": "note_27",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [355, 714, 1285, 820],
+            "area_px": 96320,
+            "border_pixels": 4156
+          },
+          {
+            "id": "note_28",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [1347, 714, 2280, 948],
+            "area_px": 399666,
+            "border_pixels": 4705
+          },
+          {
+            "id": "note_29",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [3330, 712, 4100, 815],
+            "area_px": 77970,
+            "border_pixels": 3540
+          },
+          {
+            "id": "note_30",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [4314, 715, 5256, 819],
+            "area_px": 97878,
+            "border_pixels": 4167
+          },
+          {
+            "id": "note_31",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [5317, 833, 6192, 939],
+            "area_px": 92325,
+            "border_pixels": 3967
+          },
+          {
+            "id": "note_32",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [2341, 835, 3288, 1138],
+            "area_px": 282247,
+            "border_pixels": 5016
+          },
+          {
+            "id": "note_33",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [355, 836, 1285, 942],
+            "area_px": 96320,
+            "border_pixels": 4156
+          },
+          {
+            "id": "note_34",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [1347, 835, 2280, 1069],
+            "area_px": 399666,
+            "border_pixels": 4705
+          },
+          {
+            "id": "note_35",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [3330, 834, 4100, 937],
+            "area_px": 77970,
+            "border_pixels": 3543
+          },
+          {
+            "id": "note_36",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [4313, 836, 5256, 941],
+            "area_px": 98633,
+            "border_pixels": 4175
+          },
+          {
+            "id": "note_37",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [5317, 954, 6192, 1059],
+            "area_px": 92325,
+            "border_pixels": 3970
+          },
+          {
+            "id": "note_38",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [2341, 957, 3288, 1258],
+            "area_px": 280747,
+            "border_pixels": 5005
+          },
+          {
+            "id": "note_39",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [355, 958, 1285, 1064],
+            "area_px": 96320,
+            "border_pixels": 4156
+          },
+          {
+            "id": "note_40",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [1347, 957, 2280, 1190],
+            "area_px": 395709,
+            "border_pixels": 4665
+          },
+          {
+            "id": "note_41",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [3330, 956, 4100, 1059],
+            "area_px": 77970,
+            "border_pixels": 3540
+          },
+          {
+            "id": "note_42",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [4314, 957, 5256, 1061],
+            "area_px": 97878,
+            "border_pixels": 4169
+          },
+          {
+            "id": "note_43",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [5317, 1077, 6193, 1182],
+            "area_px": 92386,
+            "border_pixels": 3976
+          },
+          {
+            "id": "note_44",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [2341, 1078, 3288, 1379],
+            "area_px": 280747,
+            "border_pixels": 5013
+          },
+          {
+            "id": "note_45",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [355, 1079, 1285, 1185],
+            "area_px": 96320,
+            "border_pixels": 4153
+          },
+          {
+            "id": "note_46",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [1347, 1078, 2280, 1312],
+            "area_px": 399666,
+            "border_pixels": 4708
+          },
+          {
+            "id": "note_47",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [3330, 1077, 4100, 1180],
+            "area_px": 77970,
+            "border_pixels": 3536
+          },
+          {
+            "id": "note_48",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [4314, 1078, 5256, 1182],
+            "area_px": 97878,
+            "border_pixels": 4168
+          },
+          {
+            "id": "note_49",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [5317, 1198, 6192, 1303],
+            "area_px": 92325,
+            "border_pixels": 3964
+          },
+          {
+            "id": "note_50",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [2341, 1200, 3288, 1502],
+            "area_px": 282247,
+            "border_pixels": 5047
+          },
+          {
+            "id": "note_51",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [355, 1201, 1285, 1307],
+            "area_px": 96320,
+            "border_pixels": 4147
+          },
+          {
+            "id": "note_52",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [1347, 1199, 2280, 1434],
+            "area_px": 399666,
+            "border_pixels": 4708
+          },
+          {
+            "id": "note_53",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [3330, 1198, 4100, 1301],
+            "area_px": 77970,
+            "border_pixels": 3536
+          },
+          {
+            "id": "note_54",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [4314, 1199, 5256, 1304],
+            "area_px": 97878,
+            "border_pixels": 4174
+          },
+          {
+            "id": "note_55",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [5317, 1320, 6192, 1425],
+            "area_px": 92325,
+            "border_pixels": 3964
+          },
+          {
+            "id": "note_56",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [2341, 1321, 3288, 1624],
+            "area_px": 280747,
+            "border_pixels": 5006
+          },
+          {
+            "id": "note_57",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [355, 1322, 1285, 1428],
+            "area_px": 96320,
+            "border_pixels": 4148
+          },
+          {
+            "id": "note_58",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [1347, 1321, 2280, 1555],
+            "area_px": 399666,
+            "border_pixels": 4704
+          },
+          {
+            "id": "note_59",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [3330, 1320, 4100, 1423],
+            "area_px": 77970,
+            "border_pixels": 3534
+          },
+          {
+            "id": "note_60",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [4314, 1321, 5256, 1426],
+            "area_px": 97878,
+            "border_pixels": 4170
+          },
+          {
+            "id": "note_61",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [5317, 1441, 6192, 1546],
+            "area_px": 92325,
+            "border_pixels": 3967
+          },
+          {
+            "id": "note_62",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [2341, 1443, 3288, 1744],
+            "area_px": 280747,
+            "border_pixels": 4993
+          },
+          {
+            "id": "note_63",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [355, 1445, 1285, 1548],
+            "area_px": 95370,
+            "border_pixels": 4109
+          },
+          {
+            "id": "note_64",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [1347, 1443, 2280, 1677],
+            "area_px": 399666,
+            "border_pixels": 4700
+          },
+          {
+            "id": "note_65",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [3330, 1442, 4100, 1545],
+            "area_px": 77970,
+            "border_pixels": 3535
+          },
+          {
+            "id": "note_66",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [4314, 1443, 5256, 1548],
+            "area_px": 97878,
+            "border_pixels": 4167
+          },
+          {
+            "id": "note_67",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [5317, 1563, 6192, 1668],
+            "area_px": 92325,
+            "border_pixels": 3968
+          },
+          {
+            "id": "note_68",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [2341, 1565, 3288, 1866],
+            "area_px": 280747,
+            "border_pixels": 4992
+          },
+          {
+            "id": "note_69",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [355, 1566, 1285, 1669],
+            "area_px": 95455,
+            "border_pixels": 4116
+          },
+          {
+            "id": "note_70",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [1347, 1565, 2280, 1800],
+            "area_px": 399666,
+            "border_pixels": 4702
+          },
+          {
+            "id": "note_71",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [3330, 1563, 4100, 1667],
+            "area_px": 77970,
+            "border_pixels": 3532
+          },
+          {
+            "id": "note_72",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [4314, 1565, 5256, 1669],
+            "area_px": 97878,
+            "border_pixels": 4167
+          },
+          {
+            "id": "note_73",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [5317, 1684, 6192, 1789],
+            "area_px": 92325,
+            "border_pixels": 3967
+          },
+          {
+            "id": "note_74",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [2341, 1687, 3288, 1987],
+            "area_px": 282247,
+            "border_pixels": 5038
+          },
+          {
+            "id": "note_75",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [355, 1688, 1285, 1791],
+            "area_px": 95455,
+            "border_pixels": 4117
+          },
+          {
+            "id": "note_76",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [1347, 1687, 2280, 1922],
+            "area_px": 399666,
+            "border_pixels": 4702
+          },
+          {
+            "id": "note_77",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [3330, 1684, 4100, 1789],
+            "area_px": 92350,
+            "border_pixels": 3960
+          },
+          {
+            "id": "note_78",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [4314, 1686, 5256, 1791],
+            "area_px": 97878,
+            "border_pixels": 4170
+          },
+          {
+            "id": "note_79",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [5317, 1805, 6192, 1910],
+            "area_px": 92325,
+            "border_pixels": 3965
+          },
+          {
+            "id": "note_80",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [2341, 1808, 3288, 2109],
+            "area_px": 280747,
+            "border_pixels": 5004
+          },
+          {
+            "id": "note_81",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [355, 1809, 1285, 1912],
+            "area_px": 95455,
+            "border_pixels": 4118
+          },
+          {
+            "id": "note_82",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [1347, 1809, 2280, 2043],
+            "area_px": 399666,
+            "border_pixels": 4708
+          },
+          {
+            "id": "note_83",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [3330, 1806, 4100, 1911],
+            "area_px": 92350,
+            "border_pixels": 3965
+          },
+          {
+            "id": "note_84",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [4314, 1808, 5256, 1913],
+            "area_px": 97878,
+            "border_pixels": 4168
+          },
+          {
+            "id": "note_85",
+            "class": "note",
+            "color_hex": "#00F900",
+            "bbox": [5317, 1926, 6193, 2031],
+            "area_px": 92386,
+            "border_pixels": 3976
+          }
+        ],
+        "legend": [
+          {
+            "id": "legend_1",
+            "class": "legend",
+            "color_hex": "#AA7942",
+            "bbox": [1333, 2203, 5455, 3479],
+            "area_px": 5489476,
+            "border_pixels": 22005
+          }
+        ],
+        "sheet_info": [
+          {
+            "id": "sheet_info_1",
+            "class": "sheet_info",
+            "color_hex": "#0433FF",
+            "bbox": [5310, 3499, 6257, 4299],
+            "area_px": 792000,
+            "border_pixels": 8731
+          }
+        ],
+        "whole_sheet": [
+          {
+            "id": "whole_sheet_1",
+            "class": "whole_sheet",
+            "color_hex": "#FF9300",
+            "bbox": [173, 58, 6571, 4338],
+            "area_px": 27523716,
+            "border_pixels": 25011
+          }
+        ],
+        "xenoglyph": [
+          {
+            "id": "xenoglyph_1",
+            "class": "xenoglyph",
+            "color_hex": "#FF40FF",
+            "bbox": [4302, 3593, 4566, 3840],
+            "area_px": 64572,
+            "border_pixels": 2462
+          },
+          {
+            "id": "xenoglyph_2",
+            "class": "xenoglyph",
+            "color_hex": "#FF40FF",
+            "bbox": [4302, 4108, 4565, 4302],
+            "area_px": 51322,
+            "border_pixels": 2308
+          }
+        ],
+        "special_note": [
+          {
+            "id": "special_note_1",
+            "class": "special_note",
+            "color_hex": "#919191",
+            "bbox": [343, 2017, 1292, 2139],
+            "area_px": 115878,
+            "border_pixels": 3815
+          },
+          {
+            "id": "special_note_2",
+            "class": "special_note",
+            "color_hex": "#919191",
+            "bbox": [343, 2140, 1291, 2263],
+            "area_px": 116736,
+            "border_pixels": 3854
+          },
+          {
+            "id": "special_note_3",
+            "class": "special_note",
+            "color_hex": "#919191",
+            "bbox": [343, 2262, 1292, 2385],
+            "area_px": 116726,
+            "border_pixels": 3838
+          },
+          {
+            "id": "special_note_4",
+            "class": "special_note",
+            "color_hex": "#919191",
+            "bbox": [343, 2384, 1291, 2507],
+            "area_px": 116736,
+            "border_pixels": 3849
+          },
+          {
+            "id": "special_note_5",
+            "class": "special_note",
+            "color_hex": "#919191",
+            "bbox": [343, 2507, 1292, 2630],
+            "area_px": 116726,
+            "border_pixels": 3847
+          },
+          {
+            "id": "special_note_6",
+            "class": "special_note",
+            "color_hex": "#919191",
+            "bbox": [343, 2629, 1292, 2752],
+            "area_px": 116726,
+            "border_pixels": 3841
+          },
+          {
+            "id": "special_note_7",
+            "class": "special_note",
+            "color_hex": "#919191",
+            "bbox": [343, 2751, 1292, 2873],
+            "area_px": 115918,
+            "border_pixels": 3831
+          },
+          {
+            "id": "special_note_8",
+            "class": "special_note",
+            "color_hex": "#919191",
+            "bbox": [343, 2873, 1291, 2996],
+            "area_px": 116736,
+            "border_pixels": 3853
+          },
+          {
+            "id": "special_note_9",
+            "class": "special_note",
+            "color_hex": "#919191",
+            "bbox": [343, 2995, 1292, 3118],
+            "area_px": 116726,
+            "border_pixels": 3835
+          },
+          {
+            "id": "special_note_10",
+            "class": "special_note",
+            "color_hex": "#919191",
+            "bbox": [343, 3117, 1291, 3240],
+            "area_px": 116736,
+            "border_pixels": 3859
+          },
+          {
+            "id": "special_note_11",
+            "class": "special_note",
+            "color_hex": "#919191",
+            "bbox": [343, 3240, 1292, 3363],
+            "area_px": 116726,
+            "border_pixels": 3850
+          },
+          {
+            "id": "special_note_12",
+            "class": "special_note",
+            "color_hex": "#919191",
+            "bbox": [343, 3362, 1292, 3485],
+            "area_px": 116726,
+            "border_pixels": 3846
+          },
+          {
+            "id": "special_note_13",
+            "class": "special_note",
+            "color_hex": "#919191",
+            "bbox": [343, 3484, 1292, 3607],
+            "area_px": 116726,
+            "border_pixels": 3845
+          },
+          {
+            "id": "special_note_14",
+            "class": "special_note",
+            "color_hex": "#919191",
+            "bbox": [343, 3606, 1291, 3729],
+            "area_px": 116736,
+            "border_pixels": 3850
+          },
+          {
+            "id": "special_note_15",
+            "class": "special_note",
+            "color_hex": "#919191",
+            "bbox": [343, 3728, 1292, 3851],
+            "area_px": 116726,
+            "border_pixels": 3846
+          },
+          {
+            "id": "special_note_16",
+            "class": "special_note",
+            "color_hex": "#919191",
+            "bbox": [343, 3850, 1291, 3973],
+            "area_px": 116736,
+            "border_pixels": 3852
+          },
+          {
+            "id": "special_note_17",
+            "class": "special_note",
+            "color_hex": "#919191",
+            "bbox": [343, 3972, 1292, 4095],
+            "area_px": 116726,
+            "border_pixels": 3837
+          },
+          {
+            "id": "special_note_18",
+            "class": "special_note",
+            "color_hex": "#919191",
+            "bbox": [343, 4094, 1292, 4217],
+            "area_px": 116726,
+            "border_pixels": 3846
+          },
+          {
+            "id": "special_note_19",
+            "class": "special_note",
+            "color_hex": "#919191",
+            "bbox": [343, 4217, 1291, 4339],
+            "area_px": 115568,
+            "border_pixels": 3819
+          },
+          {
+            "id": "special_note_20",
+            "class": "special_note",
+            "color_hex": "#919191",
+            "bbox": [1336, 2015, 2279, 2138],
+            "area_px": 116372,
+            "border_pixels": 3834
+          },
+          {
+            "id": "special_note_21",
+            "class": "special_note",
+            "color_hex": "#919191",
+            "bbox": [1335, 2137, 2278, 2260],
+            "area_px": 116373,
+            "border_pixels": 3834
+          }
+        ],
+        "plan_title": []
+      }
+    }
+  ]
+}

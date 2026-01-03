@@ -1,0 +1,2437 @@
+{
+  "boxes_source": "C:\\Projects\\backbone_skeleton\\exports\\structural\\page_boxes_p10.json",
+  "ocr_source": "C:\\Projects\\backbone_skeleton\\data\\ocr_raw\\all_pages_notes_sheetwide.json",
+  "pages": {
+    "10": {
+      "min_x": 107.28,
+      "max_x": 2412.72,
+      "min_y": 34.92,
+      "max_y": 1548.72,
+      "boxes": [
+        {
+          "id": 1,
+          "bbox_pdf": [
+            107.28,
+            35.28,
+            2256.48,
+            1548.72
+          ],
+          "area_frac": 0.8388328877005348,
+          "parent_id": null,
+          "children_ids": [
+            28,
+            39
+          ],
+          "type": "page_border",
+          "header_text": "C\nA\nB 2 WA3.0\n2",
+          "text_sample": "C\nA\nB 2 WA3.0\n2 WA2.0 1'-0\" 1'-0\" 2\" 2\" EAVE HEIGHT 113'-7\"\nWA3.0\n1 20'-4\" 15'-0 3/8\" PVC1 # # # # F.F.\n100'-0\" PLASTIC PLAQUE ADDRESS SIGN, COORD. W/ OWNER FLOOR DRAIN. RE: MECHANICAL 1/8\" = 1'-0\" 1 ",
+          "chunk_indices": [
+            490,
+            491,
+            492,
+            495,
+            497,
+            498,
+            499,
+            500,
+            501,
+            502,
+            503,
+            504,
+            505,
+            506,
+            507,
+            508,
+            509,
+            510,
+            511,
+            512,
+            513,
+            514,
+            515,
+            516,
+            517,
+            518,
+            519,
+            520,
+            521,
+            522,
+            523,
+            525,
+            526,
+            527,
+            528,
+            531,
+            532,
+            533,
+            534,
+            535,
+            536,
+            538,
+            539,
+            540,
+            541,
+            542,
+            543,
+            544,
+            545,
+            546,
+            547,
+            548,
+            549,
+            550,
+            551,
+            552,
+            553,
+            555,
+            558,
+            559,
+            560,
+            562,
+            563,
+            564,
+            565,
+            566,
+            567,
+            569,
+            570,
+            571,
+            573,
+            574,
+            575,
+            576,
+            578,
+            582,
+            583,
+            584,
+            585,
+            586,
+            587,
+            588,
+            589,
+            590,
+            591,
+            592,
+            593,
+            594,
+            595,
+            596,
+            597,
+            598,
+            599,
+            601,
+            602,
+            603,
+            604,
+            607,
+            609,
+            610,
+            611,
+            612
+          ]
+        },
+        {
+          "id": 2,
+          "bbox_pdf": [
+            109.08,
+            37.08,
+            2254.68,
+            1546.9199999999998
+          ],
+          "area_frac": 0.8354358288770053,
+          "parent_id": null,
+          "children_ids": [
+            4,
+            5,
+            8,
+            9,
+            10,
+            17,
+            20,
+            22,
+            30,
+            31,
+            38,
+            46,
+            47,
+            54,
+            55,
+            64,
+            80,
+            82,
+            97,
+            133,
+            134
+          ],
+          "type": "page_border",
+          "header_text": "C\nA\nB 2 WA3.0\n2",
+          "text_sample": "C\nA\nB 2 WA3.0\n2 WA2.0 1'-0\" 1'-0\" 2\" 2\" EAVE HEIGHT 113'-7\"\nWA3.0\n1 20'-4\" 15'-0 3/8\" PVC1 # # # # F.F.\n100'-0\" PLASTIC PLAQUE ADDRESS SIGN, COORD. W/ OWNER FLOOR DRAIN. RE: MECHANICAL 1/8\" = 1'-0\" 1 ",
+          "chunk_indices": [
+            490,
+            491,
+            492,
+            495,
+            497,
+            498,
+            499,
+            500,
+            501,
+            502,
+            503,
+            504,
+            505,
+            506,
+            507,
+            508,
+            509,
+            510,
+            511,
+            512,
+            513,
+            514,
+            515,
+            516,
+            517,
+            518,
+            519,
+            520,
+            521,
+            522,
+            523,
+            525,
+            526,
+            527,
+            528,
+            531,
+            532,
+            533,
+            534,
+            535,
+            536,
+            538,
+            539,
+            540,
+            541,
+            542,
+            543,
+            544,
+            545,
+            546,
+            547,
+            548,
+            549,
+            550,
+            551,
+            552,
+            553,
+            555,
+            558,
+            559,
+            560,
+            562,
+            563,
+            564,
+            565,
+            566,
+            567,
+            569,
+            570,
+            571,
+            573,
+            574,
+            575,
+            576,
+            578,
+            582,
+            583,
+            584,
+            585,
+            586,
+            587,
+            588,
+            589,
+            590,
+            591,
+            592,
+            593,
+            594,
+            595,
+            596,
+            597,
+            598,
+            599,
+            601,
+            602,
+            603,
+            604,
+            607,
+            609,
+            610,
+            611,
+            612
+          ]
+        },
+        {
+          "id": 3,
+          "bbox_pdf": [
+            1012.3199999999999,
+            417.96,
+            2244.24,
+            692.28
+          ],
+          "area_frac": 0.08715120320855615,
+          "parent_id": null,
+          "children_ids": [
+            24,
+            25,
+            45,
+            48,
+            65,
+            67,
+            89,
+            103,
+            107,
+            117
+          ],
+          "type": "unknown",
+          "header_text": "RIDGE CAP 1 6",
+          "text_sample": "RIDGE CAP 1 6 1\n2\n3\n4\n5\n6\n7\nWA2.0 WA2.0 ENDWALL RAKE TRIM WA3.0\n5 WA3.0\n6 EAVE HEIGHT\n113'-7\"\nPEMB WALL PANELS MP1 PVC1 MP3\nOPEN TO OPEN TO\nBEYOND BEYOND WA3.0\n9 WA3.0\n10 WA3.0\n10\nSIM",
+          "chunk_indices": [
+            514,
+            515,
+            516,
+            517,
+            518,
+            519,
+            520,
+            521,
+            523,
+            525,
+            526,
+            527,
+            528,
+            532,
+            535,
+            536
+          ]
+        },
+        {
+          "id": 4,
+          "bbox_pdf": [
+            1050.12,
+            1168.9199999999998,
+            2205.36,
+            1428.84
+          ],
+          "area_frac": 0.07743643048128342,
+          "parent_id": 2,
+          "children_ids": [
+            19,
+            23,
+            27,
+            29,
+            44,
+            56,
+            60,
+            70,
+            86
+          ],
+          "type": "unknown",
+          "header_text": "1 6 1\n2\n3\n4\n5\n6\n7\nWA2.0",
+          "text_sample": "1 6 1\n2\n3\n4\n5\n6\n7\nWA2.0 WA2.0 MP4 LIGHT FIXTURE,\nRE: ELEC. MP3 1 2 \" # # # # BEYOND\nOPEN TO OPEN TO BEYOND 2'-4 1/4\" W101D W101B 2'-4 1/4\"",
+          "chunk_indices": [
+            582,
+            583,
+            584,
+            585,
+            586,
+            587,
+            589,
+            591,
+            592,
+            593,
+            594,
+            597,
+            599,
+            601,
+            602,
+            603
+          ]
+        },
+        {
+          "id": 5,
+          "bbox_pdf": [
+            134.28,
+            95.03999999999999,
+            1354.6799999999998,
+            324.0
+          ],
+          "area_frac": 0.07206016042780748,
+          "parent_id": 2,
+          "children_ids": [
+            14,
+            15,
+            33,
+            40,
+            50,
+            52,
+            53,
+            57,
+            58,
+            59,
+            62,
+            63,
+            69,
+            71,
+            81,
+            83,
+            84,
+            88,
+            92,
+            93,
+            94,
+            96,
+            98,
+            119,
+            135
+          ],
+          "type": "unknown",
+          "header_text": "# # # #",
+          "text_sample": "# # # #",
+          "chunk_indices": [
+            506
+          ]
+        },
+        {
+          "id": 6,
+          "bbox_pdf": [
+            2272.3199999999997,
+            34.92,
+            2412.72,
+            1548.72
+          ],
+          "area_frac": 0.06089943785134296,
+          "parent_id": null,
+          "children_ids": [
+            16,
+            18,
+            36,
+            51,
+            73,
+            74
+          ],
+          "type": "title_block",
+          "header_text": "OK CA#: 32  EXP.: -06-30\nW W W .CONNECTCEC.COM CEC CORPORATION\n2026",
+          "text_sample": "OK CA#: 32  EXP.: -06-30\nW W W .CONNECTCEC.COM CEC CORPORATION\n2026 08/08/2025 NO. DESCRIPTION\nDATE SUBMITTAL:\nREVISION HISTORY CONSTRUCTION\nDOCUMENTS AS INDICATED 240622\n08/08/2025 ---\nDCL\nJSH DATE:\n",
+          "chunk_indices": [
+            493,
+            494,
+            496,
+            524,
+            529,
+            530,
+            537,
+            554,
+            556,
+            557,
+            561,
+            568,
+            572,
+            577,
+            579,
+            580,
+            581,
+            605,
+            606,
+            613
+          ]
+        },
+        {
+          "id": 8,
+          "bbox_pdf": [
+            424.08,
+            619.1999999999999,
+            686.16,
+            1391.3999999999999
+          ],
+          "area_frac": 0.052191176470588234,
+          "parent_id": 2,
+          "children_ids": [
+            34,
+            42,
+            49,
+            91,
+            101
+          ],
+          "type": "unknown",
+          "header_text": "METAL BUILDING ROOF PANEL\n133419.A06 Z-GIRT\n133419.A17",
+          "text_sample": "METAL BUILDING ROOF PANEL\n133419.A06 Z-GIRT\n133419.A17",
+          "chunk_indices": [
+            533,
+            578
+          ]
+        },
+        {
+          "id": 9,
+          "bbox_pdf": [
+            1517.76,
+            785.16,
+            2145.24,
+            1077.12
+          ],
+          "area_frac": 0.047245086898395725,
+          "parent_id": 2,
+          "children_ids": [
+            78,
+            79,
+            85,
+            87,
+            104,
+            105,
+            106,
+            113,
+            122,
+            123,
+            132
+          ],
+          "type": "unknown",
+          "header_text": "2 C\nA\nB WA2.0",
+          "text_sample": "2 C\nA\nB WA2.0 15'-0\"\n15'-0\" LIGHT FIXTURE,\nRE: ELEC. LIGHT FIXTURE,\nRE: ELEC. 1'-0\" 1'-0\" 2\" 2\" MP1 12'-0\" 12'-0\" 2'-4 1/4\" 2'-2 1/2\" 2'-4 1/4\" MP2",
+          "chunk_indices": [
+            541,
+            542,
+            544,
+            545,
+            546,
+            547,
+            548,
+            549,
+            550,
+            552,
+            560,
+            563,
+            564,
+            567,
+            569,
+            570,
+            571
+          ]
+        },
+        {
+          "id": 10,
+          "bbox_pdf": [
+            1454.3999999999999,
+            66.6,
+            2154.96,
+            323.64
+          ],
+          "area_frac": 0.04643863636363636,
+          "parent_id": 2,
+          "children_ids": [
+            12,
+            26,
+            35,
+            41,
+            43,
+            61,
+            68,
+            90,
+            111,
+            120,
+            121,
+            124,
+            125
+          ],
+          "type": "unknown",
+          "header_text": "C\nA\nB 2 WA3.0\n2",
+          "text_sample": "C\nA\nB 2 WA3.0\n2 WA2.0 1'-0\" 1'-0\" 2\" 2\" 15'-0 3/8\" PVC1",
+          "chunk_indices": [
+            490,
+            491,
+            492,
+            495,
+            497,
+            498,
+            499,
+            500,
+            504,
+            505
+          ]
+        },
+        {
+          "id": 12,
+          "bbox_pdf": [
+            1573.2,
+            142.56,
+            1829.8799999999999,
+            282.96
+          ],
+          "area_frac": 0.009293783422459893,
+          "parent_id": 10,
+          "children_ids": [],
+          "type": "callout",
+          "header_text": "PVC1",
+          "text_sample": "PVC1",
+          "chunk_indices": [
+            505
+          ]
+        },
+        {
+          "id": 14,
+          "bbox_pdf": [
+            144.35999999999999,
+            163.07999999999998,
+            1118.1599999999999,
+            190.44
+          ],
+          "area_frac": 0.006870989304812834,
+          "parent_id": 5,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 15,
+          "bbox_pdf": [
+            139.68,
+            167.76,
+            1124.28,
+            194.4
+          ],
+          "area_frac": 0.006764371657754011,
+          "parent_id": 5,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 16,
+          "bbox_pdf": [
+            2274.12,
+            408.24,
+            2410.56,
+            588.9599999999999
+          ],
+          "area_frac": 0.006358890374331551,
+          "parent_id": 6,
+          "children_ids": [
+            32
+          ],
+          "type": "callout",
+          "header_text": "08/08/2025",
+          "text_sample": "08/08/2025",
+          "chunk_indices": [
+            524
+          ]
+        },
+        {
+          "id": 17,
+          "bbox_pdf": [
+            250.2,
+            96.11999999999999,
+            1236.24,
+            120.96
+          ],
+          "area_frac": 0.006316544117647059,
+          "parent_id": 2,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 18,
+          "bbox_pdf": [
+            2274.12,
+            234.35999999999999,
+            2410.56,
+            406.8
+          ],
+          "area_frac": 0.006067546791443851,
+          "parent_id": 6,
+          "children_ids": [
+            108,
+            109,
+            110,
+            114,
+            115,
+            116
+          ],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 19,
+          "bbox_pdf": [
+            1743.12,
+            1247.76,
+            2165.7599999999998,
+            1299.6
+          ],
+          "area_frac": 0.0056502673796791445,
+          "parent_id": 4,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 20,
+          "bbox_pdf": [
+            938.52,
+            966.24,
+            1247.3999999999999,
+            1034.28
+          ],
+          "area_frac": 0.00541985294117647,
+          "parent_id": 2,
+          "children_ids": [
+            21
+          ],
+          "type": "unknown",
+          "header_text": "IF ANY SCREW-TYPE ANCHORAGE PENETRATES THE EXTERIOR METAL WALL OR\nROOF PANELS AND MISSES THE INTENDED METAL FRAMING, THE SCREW SHOULD\nBE LEFT IN PLACE OR PATCHED TO AVOID LEAVING A HOLE IN THE EXTERIOR\nSHEATHING. IF ANY HOLE CANNOT BE SUFFICIENTLY PATCHED TO ENSURE\nPERMANENT WEATHERTIGHTNESS, THE METAL PANEL SHALL BE REPLACED.",
+          "text_sample": "IF ANY SCREW-TYPE ANCHORAGE PENETRATES THE EXTERIOR METAL WALL OR\nROOF PANELS AND MISSES THE INTENDED METAL FRAMING, THE SCREW SHOULD\nBE LEFT IN PLACE OR PATCHED TO AVOID LEAVING A HOLE IN THE EXTERIO",
+          "chunk_indices": [
+            566
+          ]
+        },
+        {
+          "id": 21,
+          "bbox_pdf": [
+            939.9599999999999,
+            968.04,
+            1245.6,
+            1032.48
+          ],
+          "area_frac": 0.005079244652406417,
+          "parent_id": 20,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "IF ANY SCREW-TYPE ANCHORAGE PENETRATES THE EXTERIOR METAL WALL OR\nROOF PANELS AND MISSES THE INTENDED METAL FRAMING, THE SCREW SHOULD\nBE LEFT IN PLACE OR PATCHED TO AVOID LEAVING A HOLE IN THE EXTERIOR\nSHEATHING. IF ANY HOLE CANNOT BE SUFFICIENTLY PATCHED TO ENSURE\nPERMANENT WEATHERTIGHTNESS, THE METAL PANEL SHALL BE REPLACED.",
+          "text_sample": "IF ANY SCREW-TYPE ANCHORAGE PENETRATES THE EXTERIOR METAL WALL OR\nROOF PANELS AND MISSES THE INTENDED METAL FRAMING, THE SCREW SHOULD\nBE LEFT IN PLACE OR PATCHED TO AVOID LEAVING A HOLE IN THE EXTERIO",
+          "chunk_indices": [
+            566
+          ]
+        },
+        {
+          "id": 22,
+          "bbox_pdf": [
+            2004.48,
+            1306.8,
+            2158.92,
+            1427.3999999999999
+          ],
+          "area_frac": 0.004803308823529411,
+          "parent_id": 2,
+          "children_ids": [],
+          "type": "callout",
+          "header_text": "OPEN TO",
+          "text_sample": "OPEN TO",
+          "chunk_indices": [
+            594
+          ]
+        },
+        {
+          "id": 23,
+          "bbox_pdf": [
+            1842.48,
+            1306.44,
+            1997.28,
+            1425.96
+          ],
+          "area_frac": 0.0047713903743315505,
+          "parent_id": 4,
+          "children_ids": [],
+          "type": "callout",
+          "header_text": "BEYOND",
+          "text_sample": "BEYOND",
+          "chunk_indices": [
+            597
+          ]
+        },
+        {
+          "id": 24,
+          "bbox_pdf": [
+            2004.48,
+            541.0799999999999,
+            2159.2799999999997,
+            660.6
+          ],
+          "area_frac": 0.0047713903743315505,
+          "parent_id": 3,
+          "children_ids": [],
+          "type": "callout",
+          "header_text": "BEYOND",
+          "text_sample": "BEYOND",
+          "chunk_indices": [
+            528
+          ]
+        },
+        {
+          "id": 25,
+          "bbox_pdf": [
+            1842.48,
+            541.0799999999999,
+            1997.28,
+            660.6
+          ],
+          "area_frac": 0.0047713903743315505,
+          "parent_id": 3,
+          "children_ids": [],
+          "type": "callout",
+          "header_text": "OPEN TO\nBEYOND",
+          "text_sample": "OPEN TO\nBEYOND",
+          "chunk_indices": [
+            527
+          ]
+        },
+        {
+          "id": 26,
+          "bbox_pdf": [
+            1961.6399999999999,
+            148.68,
+            2091.96,
+            282.96
+          ],
+          "area_frac": 0.004512901069518717,
+          "parent_id": 10,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 27,
+          "bbox_pdf": [
+            1404.72,
+            1247.76,
+            1741.6799999999998,
+            1299.6
+          ],
+          "area_frac": 0.004504812834224599,
+          "parent_id": 4,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 28,
+          "bbox_pdf": [
+            367.56,
+            1486.08,
+            739.4399999999999,
+            1532.8799999999999
+          ],
+          "area_frac": 0.004488302139037433,
+          "parent_id": 1,
+          "children_ids": [],
+          "type": "callout",
+          "header_text": "1/2\" = 1'-0\" 6 WS - INTERIOR PARTITION",
+          "text_sample": "1/2\" = 1'-0\" 6 WS - INTERIOR PARTITION",
+          "chunk_indices": [
+            609,
+            610
+          ]
+        },
+        {
+          "id": 29,
+          "bbox_pdf": [
+            1530.72,
+            1305.0,
+            1673.28,
+            1420.56
+          ],
+          "area_frac": 0.004248529411764706,
+          "parent_id": 4,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 30,
+          "bbox_pdf": [
+            140.76,
+            352.08,
+            476.64,
+            398.88
+          ],
+          "area_frac": 0.004053810160427808,
+          "parent_id": 2,
+          "children_ids": [],
+          "type": "callout",
+          "header_text": "5 3D AXONOMETRIC VIEW",
+          "text_sample": "5 3D AXONOMETRIC VIEW",
+          "chunk_indices": [
+            513
+          ]
+        },
+        {
+          "id": 31,
+          "bbox_pdf": [
+            391.32,
+            303.12,
+            1117.08,
+            323.64
+          ],
+          "area_frac": 0.0038406417112299466,
+          "parent_id": 2,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 32,
+          "bbox_pdf": [
+            2279.16,
+            466.56,
+            2407.3199999999997,
+            580.68
+          ],
+          "area_frac": 0.0037717914438502673,
+          "parent_id": 16,
+          "children_ids": [
+            66,
+            100,
+            102
+          ],
+          "type": "callout",
+          "header_text": "08/08/2025",
+          "text_sample": "08/08/2025",
+          "chunk_indices": [
+            524
+          ]
+        },
+        {
+          "id": 33,
+          "bbox_pdf": [
+            401.76,
+            180.35999999999999,
+            517.3199999999999,
+            304.56
+          ],
+          "area_frac": 0.003701370320855615,
+          "parent_id": 5,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 34,
+          "bbox_pdf": [
+            510.84,
+            657.0,
+            572.4,
+            882.0
+          ],
+          "area_frac": 0.0035720254010695187,
+          "parent_id": 8,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 35,
+          "bbox_pdf": [
+            1542.6,
+            109.8,
+            1811.52,
+            154.79999999999998
+          ],
+          "area_frac": 0.003120822192513369,
+          "parent_id": 10,
+          "children_ids": [],
+          "type": "callout",
+          "header_text": "1'-0\" 2\"",
+          "text_sample": "1'-0\" 2\"",
+          "chunk_indices": [
+            498,
+            500
+          ]
+        },
+        {
+          "id": 36,
+          "bbox_pdf": [
+            2274.12,
+            1420.2,
+            2410.56,
+            1494.36
+          ],
+          "area_frac": 0.0026094251336898394,
+          "parent_id": 6,
+          "children_ids": [],
+          "type": "callout",
+          "header_text": "SHEET NAME ELEVATIONS &\nSECTIONS",
+          "text_sample": "SHEET NAME ELEVATIONS &\nSECTIONS",
+          "chunk_indices": [
+            605,
+            606
+          ]
+        },
+        {
+          "id": 38,
+          "bbox_pdf": [
+            1478.52,
+            1073.52,
+            1690.56,
+            1119.96
+          ],
+          "area_frac": 0.00253947192513369,
+          "parent_id": 2,
+          "children_ids": [],
+          "type": "callout",
+          "header_text": "1/8\" = 1'-0\" 3 ELEVATION",
+          "text_sample": "1/8\" = 1'-0\" 3 ELEVATION",
+          "chunk_indices": [
+            575,
+            576
+          ]
+        },
+        {
+          "id": 39,
+          "bbox_pdf": [
+            1097.28,
+            1486.08,
+            1300.68,
+            1532.8799999999999
+          ],
+          "area_frac": 0.002454879679144385,
+          "parent_id": 1,
+          "children_ids": [],
+          "type": "callout",
+          "header_text": "1/8\" = 1'-0\" 4 ELEVATION",
+          "text_sample": "1/8\" = 1'-0\" 4 ELEVATION",
+          "chunk_indices": [
+            611,
+            612
+          ]
+        },
+        {
+          "id": 40,
+          "bbox_pdf": [
+            981.0,
+            194.04,
+            1069.92,
+            298.08
+          ],
+          "area_frac": 0.0023857954545454547,
+          "parent_id": 5,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 41,
+          "bbox_pdf": [
+            1854.0,
+            109.8,
+            2086.2,
+            148.68
+          ],
+          "area_frac": 0.0023282085561497326,
+          "parent_id": 10,
+          "children_ids": [],
+          "type": "callout",
+          "header_text": "1'-0\" 2\"",
+          "text_sample": "1'-0\" 2\"",
+          "chunk_indices": [
+            497,
+            499
+          ]
+        },
+        {
+          "id": 42,
+          "bbox_pdf": [
+            558.36,
+            1227.6,
+            621.36,
+            1370.8799999999999
+          ],
+          "area_frac": 0.002327874331550802,
+          "parent_id": 8,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 43,
+          "bbox_pdf": [
+            1835.6399999999999,
+            142.56,
+            1960.1999999999998,
+            210.6
+          ],
+          "area_frac": 0.002185628342245989,
+          "parent_id": 10,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 44,
+          "bbox_pdf": [
+            1243.44,
+            1247.76,
+            1403.6399999999999,
+            1299.6
+          ],
+          "area_frac": 0.002141711229946524,
+          "parent_id": 4,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 45,
+          "bbox_pdf": [
+            1743.12,
+            482.76,
+            2165.4,
+            501.47999999999996
+          ],
+          "area_frac": 0.0020386363636363636,
+          "parent_id": 3,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 46,
+          "bbox_pdf": [
+            1097.28,
+            727.92,
+            1261.44,
+            774.36
+          ],
+          "area_frac": 0.001966042780748663,
+          "parent_id": 2,
+          "children_ids": [],
+          "type": "callout",
+          "header_text": "1/8\" = 1'-0\" 2 SECTION",
+          "text_sample": "1/8\" = 1'-0\" 2 SECTION",
+          "chunk_indices": [
+            539,
+            540
+          ]
+        },
+        {
+          "id": 47,
+          "bbox_pdf": [
+            1478.8799999999999,
+            328.68,
+            1640.1599999999999,
+            375.12
+          ],
+          "area_frac": 0.0019315508021390375,
+          "parent_id": 2,
+          "children_ids": [],
+          "type": "callout",
+          "header_text": "1/8\" = 1'-0\" 1 SECTION",
+          "text_sample": "1/8\" = 1'-0\" 1 SECTION",
+          "chunk_indices": [
+            510,
+            511
+          ]
+        },
+        {
+          "id": 48,
+          "bbox_pdf": [
+            1368.36,
+            482.76,
+            1741.6799999999998,
+            502.56
+          ],
+          "area_frac": 0.00190625,
+          "parent_id": 3,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 49,
+          "bbox_pdf": [
+            474.47999999999996,
+            1227.6,
+            525.24,
+            1370.8799999999999
+          ],
+          "area_frac": 0.0018756016042780748,
+          "parent_id": 8,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 50,
+          "bbox_pdf": [
+            143.28,
+            99.0,
+            256.68,
+            162.0
+          ],
+          "area_frac": 0.0018424131016042782,
+          "parent_id": 5,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 51,
+          "bbox_pdf": [
+            2274.12,
+            1496.1599999999999,
+            2410.56,
+            1546.9199999999998
+          ],
+          "area_frac": 0.0017860628342245988,
+          "parent_id": 6,
+          "children_ids": [],
+          "type": "callout",
+          "header_text": "SHEET\nWA2.0",
+          "text_sample": "SHEET\nWA2.0",
+          "chunk_indices": [
+            613
+          ]
+        },
+        {
+          "id": 52,
+          "bbox_pdf": [
+            1124.28,
+            122.75999999999999,
+            1235.52,
+            184.32
+          ],
+          "area_frac": 0.00176600935828877,
+          "parent_id": 5,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 53,
+          "bbox_pdf": [
+            139.68,
+            97.92,
+            250.2,
+            159.84
+          ],
+          "area_frac": 0.0017648395721925135,
+          "parent_id": 5,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 54,
+          "bbox_pdf": [
+            1766.8799999999999,
+            671.04,
+            1930.32,
+            712.4399999999999
+          ],
+          "area_frac": 0.0017449866310160428,
+          "parent_id": 2,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 55,
+          "bbox_pdf": [
+            1134.72,
+            292.68,
+            1348.2,
+            324.36
+          ],
+          "area_frac": 0.0017441176470588235,
+          "parent_id": 2,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 56,
+          "bbox_pdf": [
+            1107.36,
+            1247.76,
+            1225.08,
+            1299.6
+          ],
+          "area_frac": 0.0015737967914438503,
+          "parent_id": 4,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 57,
+          "bbox_pdf": [
+            835.1999999999999,
+            269.28,
+            964.4399999999999,
+            315.71999999999997
+          ],
+          "area_frac": 0.0015478275401069519,
+          "parent_id": 5,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 58,
+          "bbox_pdf": [
+            686.16,
+            265.32,
+            815.4,
+            311.76
+          ],
+          "area_frac": 0.0015478275401069519,
+          "parent_id": 5,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 59,
+          "bbox_pdf": [
+            537.12,
+            261.71999999999997,
+            666.36,
+            308.15999999999997
+          ],
+          "area_frac": 0.0015478275401069519,
+          "parent_id": 5,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 60,
+          "bbox_pdf": [
+            1458.72,
+            1306.44,
+            1511.28,
+            1420.56
+          ],
+          "area_frac": 0.0015468582887700536,
+          "parent_id": 4,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 61,
+          "bbox_pdf": [
+            1571.3999999999999,
+            132.12,
+            1740.96,
+            167.4
+          ],
+          "area_frac": 0.0015427139037433155,
+          "parent_id": 10,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 62,
+          "bbox_pdf": [
+            984.24,
+            274.68,
+            1113.48,
+            319.68
+          ],
+          "area_frac": 0.0014998328877005348,
+          "parent_id": 5,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 63,
+          "bbox_pdf": [
+            148.32,
+            172.07999999999998,
+            203.76,
+            274.32
+          ],
+          "area_frac": 0.001461764705882353,
+          "parent_id": 5,
+          "children_ids": [],
+          "type": "callout",
+          "header_text": "# # # #",
+          "text_sample": "# # # #",
+          "chunk_indices": [
+            506
+          ]
+        },
+        {
+          "id": 64,
+          "bbox_pdf": [
+            1519.56,
+            670.68,
+            1659.96,
+            710.64
+          ],
+          "area_frac": 0.0014468582887700535,
+          "parent_id": 2,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 65,
+          "bbox_pdf": [
+            1305.0,
+            534.6,
+            1349.6399999999999,
+            658.0799999999999
+          ],
+          "area_frac": 0.001421524064171123,
+          "parent_id": 3,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 66,
+          "bbox_pdf": [
+            2286.0,
+            472.68,
+            2377.08,
+            530.64
+          ],
+          "area_frac": 0.0013613970588235295,
+          "parent_id": 32,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 67,
+          "bbox_pdf": [
+            1575.72,
+            510.84,
+            1609.9199999999998,
+            655.1999999999999
+          ],
+          "area_frac": 0.0012732286096256685,
+          "parent_id": 3,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 68,
+          "bbox_pdf": [
+            1461.96,
+            165.96,
+            1501.56,
+            287.28
+          ],
+          "area_frac": 0.001238970588235294,
+          "parent_id": 10,
+          "children_ids": [],
+          "type": "callout",
+          "header_text": "15'-0 3/8\"",
+          "text_sample": "15'-0 3/8\"",
+          "chunk_indices": [
+            504
+          ]
+        },
+        {
+          "id": 69,
+          "bbox_pdf": [
+            429.12,
+            178.92,
+            478.08,
+            272.88
+          ],
+          "area_frac": 0.0011863636363636364,
+          "parent_id": 5,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 70,
+          "bbox_pdf": [
+            1364.04,
+            1305.0,
+            1403.28,
+            1420.56
+          ],
+          "area_frac": 0.001169418449197861,
+          "parent_id": 4,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 71,
+          "bbox_pdf": [
+            980.64,
+            192.95999999999998,
+            1029.96,
+            282.96
+          ],
+          "area_frac": 0.0011447192513368983,
+          "parent_id": 5,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 73,
+          "bbox_pdf": [
+            2285.64,
+            150.84,
+            2349.36,
+            214.56
+          ],
+          "area_frac": 0.0010470922459893048,
+          "parent_id": 6,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 74,
+          "bbox_pdf": [
+            2286.0,
+            151.2,
+            2349.0,
+            214.2
+          ],
+          "area_frac": 0.001023562834224599,
+          "parent_id": 6,
+          "children_ids": [
+            76
+          ],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 76,
+          "bbox_pdf": [
+            2287.08,
+            152.28,
+            2347.92,
+            213.12
+          ],
+          "area_frac": 0.0009545788770053476,
+          "parent_id": 74,
+          "children_ids": [
+            77
+          ],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 77,
+          "bbox_pdf": [
+            2287.7999999999997,
+            153.0,
+            2347.2,
+            212.4
+          ],
+          "area_frac": 0.0009099264705882353,
+          "parent_id": 76,
+          "children_ids": [
+            99
+          ],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 78,
+          "bbox_pdf": [
+            1698.48,
+            846.36,
+            1830.6,
+            872.64
+          ],
+          "area_frac": 0.0008954211229946524,
+          "parent_id": 9,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 79,
+          "bbox_pdf": [
+            1698.48,
+            857.52,
+            1832.04,
+            882.36
+          ],
+          "area_frac": 0.000855581550802139,
+          "parent_id": 9,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 80,
+          "bbox_pdf": [
+            1839.6,
+            1435.6799999999998,
+            2005.1999999999998,
+            1455.48
+          ],
+          "area_frac": 0.0008455882352941176,
+          "parent_id": 2,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 81,
+          "bbox_pdf": [
+            934.92,
+            191.51999999999998,
+            970.92,
+            281.52
+          ],
+          "area_frac": 0.0008355614973262032,
+          "parent_id": 5,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 82,
+          "bbox_pdf": [
+            1783.8,
+            1435.6799999999998,
+            1908.36,
+            1461.6
+          ],
+          "area_frac": 0.0008326203208556149,
+          "parent_id": 2,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 83,
+          "bbox_pdf": [
+            1040.04,
+            194.04,
+            1075.68,
+            284.03999999999996
+          ],
+          "area_frac": 0.0008272058823529412,
+          "parent_id": 5,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 84,
+          "bbox_pdf": [
+            1084.32,
+            195.12,
+            1119.6,
+            285.47999999999996
+          ],
+          "area_frac": 0.0008221256684491978,
+          "parent_id": 5,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 85,
+          "bbox_pdf": [
+            1833.48,
+            846.36,
+            1960.1999999999998,
+            871.1999999999999
+          ],
+          "area_frac": 0.000811764705882353,
+          "parent_id": 9,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 86,
+          "bbox_pdf": [
+            1404.72,
+            1305.0,
+            1431.36,
+            1420.56
+          ],
+          "area_frac": 0.0007939171122994652,
+          "parent_id": 4,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 87,
+          "bbox_pdf": [
+            1833.48,
+            857.52,
+            1960.1999999999998,
+            881.28
+          ],
+          "area_frac": 0.0007764705882352942,
+          "parent_id": 9,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 88,
+          "bbox_pdf": [
+            388.8,
+            177.84,
+            418.32,
+            278.28
+          ],
+          "area_frac": 0.0007646390374331551,
+          "parent_id": 5,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 89,
+          "bbox_pdf": [
+            1113.84,
+            534.6,
+            1158.48,
+            600.48
+          ],
+          "area_frac": 0.0007584224598930481,
+          "parent_id": 3,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 90,
+          "bbox_pdf": [
+            1961.6399999999999,
+            138.24,
+            2085.12,
+            162.0
+          ],
+          "area_frac": 0.0007566176470588235,
+          "parent_id": 10,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 91,
+          "bbox_pdf": [
+            530.28,
+            977.76,
+            552.96,
+            1106.28
+          ],
+          "area_frac": 0.0007517045454545454,
+          "parent_id": 8,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 92,
+          "bbox_pdf": [
+            203.76,
+            254.88,
+            331.56,
+            277.56
+          ],
+          "area_frac": 0.0007474933155080214,
+          "parent_id": 5,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 93,
+          "bbox_pdf": [
+            203.76,
+            233.64,
+            331.56,
+            256.32
+          ],
+          "area_frac": 0.0007474933155080214,
+          "parent_id": 5,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 94,
+          "bbox_pdf": [
+            203.76,
+            212.04,
+            331.56,
+            234.72
+          ],
+          "area_frac": 0.0007474933155080214,
+          "parent_id": 5,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 96,
+          "bbox_pdf": [
+            203.76,
+            190.79999999999998,
+            331.56,
+            213.12
+          ],
+          "area_frac": 0.0007356283422459893,
+          "parent_id": 5,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 97,
+          "bbox_pdf": [
+            2108.16,
+            168.48,
+            2193.84,
+            200.88
+          ],
+          "area_frac": 0.0007159090909090909,
+          "parent_id": 2,
+          "children_ids": [],
+          "type": "callout",
+          "header_text": "113'-7\"\nWA3.0\n1",
+          "text_sample": "113'-7\"\nWA3.0\n1",
+          "chunk_indices": [
+            502
+          ]
+        },
+        {
+          "id": 98,
+          "bbox_pdf": [
+            203.76,
+            276.48,
+            324.71999999999997,
+            299.15999999999997
+          ],
+          "area_frac": 0.0007074866310160428,
+          "parent_id": 5,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 99,
+          "bbox_pdf": [
+            2289.96,
+            160.56,
+            2344.68,
+            210.23999999999998
+          ],
+          "area_frac": 0.0007010695187165775,
+          "parent_id": 77,
+          "children_ids": [
+            112
+          ],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 100,
+          "bbox_pdf": [
+            2315.16,
+            523.4399999999999,
+            2379.24,
+            565.56
+          ],
+          "area_frac": 0.0006960561497326203,
+          "parent_id": 32,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 101,
+          "bbox_pdf": [
+            530.28,
+            1108.08,
+            552.96,
+            1226.1599999999999
+          ],
+          "area_frac": 0.0006906417112299465,
+          "parent_id": 8,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 102,
+          "bbox_pdf": [
+            2303.64,
+            492.12,
+            2361.24,
+            538.56
+          ],
+          "area_frac": 0.0006898395721925133,
+          "parent_id": 32,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 103,
+          "bbox_pdf": [
+            1107.36,
+            482.4,
+            1242.0,
+            502.2
+          ],
+          "area_frac": 0.0006875,
+          "parent_id": 3,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 104,
+          "bbox_pdf": [
+            1685.1599999999999,
+            1015.1999999999999,
+            1832.04,
+            1033.2
+          ],
+          "area_frac": 0.0006818181818181819,
+          "parent_id": 9,
+          "children_ids": [],
+          "type": "callout",
+          "header_text": "MP2",
+          "text_sample": "MP2",
+          "chunk_indices": [
+            571
+          ]
+        },
+        {
+          "id": 105,
+          "bbox_pdf": [
+            1841.04,
+            863.64,
+            1858.6799999999998,
+            1013.04
+          ],
+          "area_frac": 0.0006796457219251337,
+          "parent_id": 9,
+          "children_ids": [],
+          "type": "callout",
+          "header_text": "2'-2 1/2\"",
+          "text_sample": "2'-2 1/2\"",
+          "chunk_indices": [
+            569
+          ]
+        },
+        {
+          "id": 106,
+          "bbox_pdf": [
+            1685.8799999999999,
+            883.0799999999999,
+            1705.6799999999998,
+            1013.76
+          ],
+          "area_frac": 0.0006672794117647059,
+          "parent_id": 9,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 107,
+          "bbox_pdf": [
+            1243.44,
+            482.4,
+            1373.76,
+            502.2
+          ],
+          "area_frac": 0.0006654411764705883,
+          "parent_id": 3,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 108,
+          "bbox_pdf": [
+            2291.4,
+            317.52,
+            2342.16,
+            368.28
+          ],
+          "area_frac": 0.0006644719251336898,
+          "parent_id": 18,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 109,
+          "bbox_pdf": [
+            2343.96,
+            264.96,
+            2394.72,
+            315.71999999999997
+          ],
+          "area_frac": 0.0006644719251336898,
+          "parent_id": 18,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 110,
+          "bbox_pdf": [
+            2291.4,
+            264.96,
+            2342.16,
+            315.71999999999997
+          ],
+          "area_frac": 0.0006644719251336898,
+          "parent_id": 18,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 111,
+          "bbox_pdf": [
+            1965.24,
+            291.59999999999997,
+            2102.04,
+            310.32
+          ],
+          "area_frac": 0.000660427807486631,
+          "parent_id": 10,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 112,
+          "bbox_pdf": [
+            2290.68,
+            161.64,
+            2343.96,
+            209.51999999999998
+          ],
+          "area_frac": 0.0006578877005347593,
+          "parent_id": 99,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 113,
+          "bbox_pdf": [
+            1761.48,
+            871.1999999999999,
+            1779.12,
+            1013.76
+          ],
+          "area_frac": 0.0006485294117647059,
+          "parent_id": 9,
+          "children_ids": [],
+          "type": "callout",
+          "header_text": "MP1",
+          "text_sample": "MP1",
+          "chunk_indices": [
+            560
+          ]
+        },
+        {
+          "id": 114,
+          "bbox_pdf": [
+            2292.12,
+            318.24,
+            2341.44,
+            367.91999999999996
+          ],
+          "area_frac": 0.000631885026737968,
+          "parent_id": 18,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 115,
+          "bbox_pdf": [
+            2344.68,
+            265.68,
+            2394.0,
+            315.36
+          ],
+          "area_frac": 0.000631885026737968,
+          "parent_id": 18,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 116,
+          "bbox_pdf": [
+            2292.12,
+            265.68,
+            2341.44,
+            315.36
+          ],
+          "area_frac": 0.000631885026737968,
+          "parent_id": 18,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 117,
+          "bbox_pdf": [
+            1386.72,
+            510.84,
+            1403.28,
+            655.1999999999999
+          ],
+          "area_frac": 0.0006165106951871658,
+          "parent_id": 3,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 119,
+          "bbox_pdf": [
+            354.59999999999997,
+            177.12,
+            377.64,
+            279.0
+          ],
+          "area_frac": 0.0006053475935828877,
+          "parent_id": 5,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 120,
+          "bbox_pdf": [
+            1880.6399999999999,
+            249.48,
+            1954.4399999999998,
+            281.15999999999997
+          ],
+          "area_frac": 0.0006029411764705882,
+          "parent_id": 10,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 121,
+          "bbox_pdf": [
+            1961.6399999999999,
+            249.48,
+            2032.56,
+            281.88
+          ],
+          "area_frac": 0.0005925802139037433,
+          "parent_id": 10,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 122,
+          "bbox_pdf": [
+            1564.56,
+            1015.1999999999999,
+            1683.72,
+            1034.28
+          ],
+          "area_frac": 0.0005863302139037433,
+          "parent_id": 9,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 123,
+          "bbox_pdf": [
+            1986.84,
+            885.6,
+            2100.24,
+            904.68
+          ],
+          "area_frac": 0.0005579879679144385,
+          "parent_id": 9,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 124,
+          "bbox_pdf": [
+            1833.48,
+            116.64,
+            1922.04,
+            140.76
+          ],
+          "area_frac": 0.0005508689839572192,
+          "parent_id": 10,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 125,
+          "bbox_pdf": [
+            1743.48,
+            116.64,
+            1832.04,
+            140.76
+          ],
+          "area_frac": 0.0005508689839572192,
+          "parent_id": 10,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 132,
+          "bbox_pdf": [
+            1565.28,
+            885.6,
+            1675.08,
+            904.68
+          ],
+          "area_frac": 0.000540274064171123,
+          "parent_id": 9,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 133,
+          "bbox_pdf": [
+            1540.08,
+            1402.2,
+            1614.6,
+            1429.9199999999998
+          ],
+          "area_frac": 0.0005327205882352941,
+          "parent_id": 2,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 134,
+          "bbox_pdf": [
+            1544.3999999999999,
+            1435.6799999999998,
+            1640.8799999999999,
+            1456.9199999999998
+          ],
+          "area_frac": 0.000528475935828877,
+          "parent_id": 2,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        },
+        {
+          "id": 135,
+          "bbox_pdf": [
+            1225.08,
+            127.8,
+            1237.68,
+            284.76
+          ],
+          "area_frac": 0.0005100267379679144,
+          "parent_id": 5,
+          "children_ids": [],
+          "type": "unknown",
+          "header_text": "",
+          "text_sample": "",
+          "chunk_indices": []
+        }
+      ]
+    }
+  }
+}

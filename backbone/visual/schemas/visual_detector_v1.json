@@ -1,0 +1,68 @@
+﻿{
+  "metadata": {
+    "version": 1,
+    "created_at": "2025-11-25",
+    "source": "Jake-labeled Test Page 3",
+    "notes": "Base visual detector config using HEX-only color classes and contour-based box detection."
+  },
+  "color_classes": {
+    "column_or_table": "#00FDFF",
+    "column_header": "#FF2600",
+    "note": "#00F900",
+    "legend": "#AA7942",
+    "sheet_info": "#0433FF",
+    "whole_sheet": "#FF9300",
+    "xenoglyph": "#FF40FF",
+    "special_or_project": "#919191",
+    "plan_title": "#FFFB00"
+  },
+  "detection_params": {
+    "dpi": 200,
+    "color_tolerance": 25,
+    "min_box_area_px": 2000,
+    "min_box_width_px": 10,
+    "min_box_height_px": 10,
+    "morphology": {
+      "dilate_iterations": 1,
+      "close_iterations": 1,
+      "kernel_size": 3
+    }
+  },
+  "rules": {
+    "note": {
+      "must_be_inside_column_or_table": true,
+      "ignore_regions": [
+        "legend",
+        "sheet_info"
+      ]
+    },
+    "legend": {
+      "treat_as_isolated_region": true,
+      "exclude_from_note_grouping": true
+    },
+    "sheet_info": {
+      "treat_as_metadata_region": true
+    },
+    "whole_sheet": {
+      "use_as_global_clip": true
+    },
+    "xenoglyph": {
+      "mark_for_manual_review": true
+    },
+    "special_or_project": {
+      "subtypes": [
+        "special_note",
+        "project_map"
+      ],
+      "subtyping_strategy": "manual_for_now"
+    },
+    "plan_title": {
+      "treat_as_title_block": true
+    }
+  },
+  "postprocessing": {
+    "merge_touching_boxes": false,
+    "snap_bboxes_to_pixel_grid": true,
+    "require_unique_ids": true
+  }
+}
