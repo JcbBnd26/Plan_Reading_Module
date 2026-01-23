@@ -29,10 +29,10 @@ import sys
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 
-
 # ----------------------------
 # Process helpers
 # ----------------------------
+
 
 def run_cmd(args: List[str], cwd: Path) -> None:
     """Run a command; raise on failure."""
@@ -46,9 +46,11 @@ def run_cmd(args: List[str], cwd: Path) -> None:
 # JSON helpers
 # ----------------------------
 
+
 def load_json(path: Path):
     with path.open("r", encoding="utf-8") as f:
         return json.load(f)
+
 
 def get_chunks(root):
     if isinstance(root, list):
@@ -56,6 +58,7 @@ def get_chunks(root):
     if isinstance(root, dict) and isinstance(root.get("chunks"), list):
         return root["chunks"]
     return []
+
 
 def count_types_for_page(json_path: Path, page: int) -> Dict[str, int]:
     root = load_json(json_path)
@@ -73,10 +76,51 @@ def count_types_for_page(json_path: Path, page: int) -> Dict[str, int]:
 
 
 # ----------------------------
+# Mystrey Helper
+# ----------------------------
+
+
+def write_stage0_from_base_json(base_json_path, stage0_path):
+    """
+    Pipeline contract adapter:
+    - If base JSON root is a LIST, wrap it into {"chunks": [...]}
+    - If base JSON root is a DICT with "chunks", pass through
+    - Otherwise, fail loud (prevents silent corruption)
+    """
+    import json
+    from pathlib import Path
+
+    base_json_path = Path(base_json_path)
+    stage0_path = Path(stage0_path)
+
+    with base_json_path.open("r", encoding="utf-8") as f:
+        root = json.load(f)
+
+    if isinstance(root, list):
+        root = {"chunks": root}
+    elif isinstance(root, dict):
+        if "chunks" not in root:
+            raise ValueError(
+                f"Base JSON dict must contain key 'chunks'. Got keys: {list(root.keys())[:20]}"
+            )
+    else:
+        raise ValueError(
+            f"Base JSON root must be list or dict. Got: {type(root).__name__}"
+        )
+
+    stage0_path.parent.mkdir(parents=True, exist_ok=True)
+    with stage0_path.open("w", encoding="utf-8") as f:
+        json.dump(root, f, ensure_ascii=False, indent=2)
+
+
+# ----------------------------
 # Overlay + montage helpers
 # ----------------------------
 
-def make_overlay(repo_root: Path, pdf_path: Path, json_path: Path, page: int, out_png: Path, dpi: int) -> None:
+
+def make_overlay(
+    repo_root: Path, pdf_path: Path, json_path: Path, page: int, out_png: Path, dpi: int
+) -> None:
     viz = repo_root / "tools" / "visualize_notes_from_json.py"
     if not viz.exists():
         print(f"[WARN] Missing visualizer, overlay skipped: {viz}")
@@ -84,16 +128,24 @@ def make_overlay(repo_root: Path, pdf_path: Path, json_path: Path, page: int, ou
 
     run_cmd(
         [
-            sys.executable, str(viz),
-            "--pdf", str(pdf_path),
-            "--json", str(json_path),
-            "--page", str(page),
-            "--out", str(out_png),
-            "--dpi", str(dpi),
-            "--scheme", "type",
+            sys.executable,
+            str(viz),
+            "--pdf",
+            str(pdf_path),
+            "--json",
+            str(json_path),
+            "--page",
+            str(page),
+            "--out",
+            str(out_png),
+            "--dpi",
+            str(dpi),
+            "--scheme",
+            "type",
         ],
         cwd=repo_root,
     )
+
 
 def try_make_montage(png_paths: List[Path], out_path: Path) -> bool:
     """
@@ -142,19 +194,36 @@ def try_make_montage(png_paths: List[Path], out_path: Path) -> bool:
 # CLI
 # ----------------------------
 
-def parse_args() -> argparse.Namespace:
-    p = argparse.ArgumentParser(description="Run header tag/split/merge pipeline for one page + emit canonical outputs.")
-    p.add_argument("--pdf", default="test.pdf", help="Input PDF (default: test.pdf)")
-    p.add_argument("--base-json", default="data/structural_masks/all_pages_notes_sheetwide_no_legend.json",
-                   help="Base notes JSON (default: structurally masked no-legend JSON)")
-    p.add_argument("--page", type=int, default=3, help="1-based page number (default: 3)")
 
-    p.add_argument("--out-dir", default="exports/MostRecent", help="Output directory (default: exports/MostRecent)")
+def parse_args() -> argparse.Namespace:
+    p = argparse.ArgumentParser(
+        description="Run header tag/split/merge pipeline for one page + emit canonical outputs."
+    )
+    p.add_argument("--pdf", default="test.pdf", help="Input PDF (default: test.pdf)")
+    p.add_argument(
+        "--base-json",
+        default="data/structural_masks/all_pages_notes_sheetwide_no_legend.json",
+        help="Base notes JSON (default: structurally masked no-legend JSON)",
+    )
+    p.add_argument(
+        "--page", type=int, default=3, help="1-based page number (default: 3)"
+    )
+
+    p.add_argument(
+        "--out-dir",
+        default="exports/MostRecent",
+        help="Output directory (default: exports/MostRecent)",
+    )
     p.add_argument("--dpi", type=int, default=200, help="Overlay DPI (default: 200)")
 
-    p.add_argument("--no-rotate-exports", action="store_true",
-                   help="Do not call tools/prepare_exports_run.py before writing outputs")
-    p.add_argument("--no-overlays", action="store_true", help="Skip overlay PNG generation")
+    p.add_argument(
+        "--no-rotate-exports",
+        action="store_true",
+        help="Do not call tools/prepare_exports_run.py before writing outputs",
+    )
+    p.add_argument(
+        "--no-overlays", action="store_true", help="Skip overlay PNG generation"
+    )
 
     # Stage toggles
     p.add_argument("--skip-headers", action="store_true")
@@ -179,6 +248,7 @@ def parse_args() -> argparse.Namespace:
 # ----------------------------
 # Main
 # ----------------------------
+
 
 def main() -> None:
     a = parse_args()
@@ -209,8 +279,8 @@ def main() -> None:
     s3 = out_dir / "stage3_notes_merged.json"
     s4 = out_dir / "stage4_notes_stitched.json"
 
-    # Write stage0 as a frozen copy
-    s0.write_bytes(base_json.read_bytes())
+    # Write stage0: wrap list roots into {"chunks": [...]} to satisfy validator contract
+    write_stage0_from_base_json(base_json, s0)
     print(f"[OK] stage0 written: {s0}")
 
     cur = s0
@@ -218,7 +288,19 @@ def main() -> None:
     # stage1: tag headers
     if not a.skip_headers:
         tool = repo_root / "tools" / "tag_header_candidates.py"
-        run_cmd([sys.executable, str(tool), "--input", str(cur), "--output", str(s1), "--page", str(a.page)], cwd=repo_root)
+        run_cmd(
+            [
+                sys.executable,
+                str(tool),
+                "--input",
+                str(cur),
+                "--output",
+                str(s1),
+                "--page",
+                str(a.page),
+            ],
+            cwd=repo_root,
+        )
         cur = s1
     else:
         print("[SKIP] headers tagger")
@@ -226,7 +308,21 @@ def main() -> None:
     # stage2: split banners
     if not a.skip_split:
         tool = repo_root / "tools" / "split_banner_headers.py"
-        run_cmd([sys.executable, str(tool), "--input", str(cur), "--output", str(s2), "--page", str(a.page), "--x-tol", str(a.split_x_tol)], cwd=repo_root)
+        run_cmd(
+            [
+                sys.executable,
+                str(tool),
+                "--input",
+                str(cur),
+                "--output",
+                str(s2),
+                "--page",
+                str(a.page),
+                "--x-tol",
+                str(a.split_x_tol),
+            ],
+            cwd=repo_root,
+        )
         cur = s2
     else:
         print("[SKIP] header splitter")
@@ -236,14 +332,22 @@ def main() -> None:
         tool = repo_root / "tools" / "merge_note_fragments.py"
         run_cmd(
             [
-                sys.executable, str(tool),
-                "--input", str(cur),
-                "--output", str(s3),
-                "--page", str(a.page),
-                "--max-gap", str(a.merge_max_gap),
-                "--min-overlap", str(a.merge_min_overlap),
-                "--x-bin-tol", str(a.merge_x_bin_tol),
-                "--x-shift-hard", str(a.merge_x_shift_hard),
+                sys.executable,
+                str(tool),
+                "--input",
+                str(cur),
+                "--output",
+                str(s3),
+                "--page",
+                str(a.page),
+                "--max-gap",
+                str(a.merge_max_gap),
+                "--min-overlap",
+                str(a.merge_min_overlap),
+                "--x-bin-tol",
+                str(a.merge_x_bin_tol),
+                "--x-shift-hard",
+                str(a.merge_x_shift_hard),
             ],
             cwd=repo_root,
         )
@@ -256,13 +360,20 @@ def main() -> None:
         tool = repo_root / "tools" / "fix_split_notes_postmerge.py"
         run_cmd(
             [
-                sys.executable, str(tool),
-                "--input", str(cur),
-                "--output", str(s4),
-                "--only-page", str(a.page),
-                "--max-gap", str(a.stitch_max_gap),
-                "--min-overlap", str(a.stitch_min_overlap),
-                "--x0-tolerance", str(a.stitch_x0_tol),
+                sys.executable,
+                str(tool),
+                "--input",
+                str(cur),
+                "--output",
+                str(s4),
+                "--only-page",
+                str(a.page),
+                "--max-gap",
+                str(a.stitch_max_gap),
+                "--min-overlap",
+                str(a.stitch_min_overlap),
+                "--x0-tolerance",
+                str(a.stitch_x0_tol),
             ],
             cwd=repo_root,
         )
@@ -349,7 +460,9 @@ def main() -> None:
             "summary_md": str(summary_md),
         },
     }
-    (out_dir / "manifest.json").write_text(json.dumps(manifest, indent=2), encoding="utf-8")
+    (out_dir / "manifest.json").write_text(
+        json.dumps(manifest, indent=2), encoding="utf-8"
+    )
 
     # Stable final JSON (alias)
     final_json = out_dir / "final.json"
